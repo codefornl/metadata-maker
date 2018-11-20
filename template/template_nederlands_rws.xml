@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gmd:MD_Metadata  	xmlns:gml="http://www.opengis.net/gml"  	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 	xmlns:xs="http://www.w3.org/2001/XMLSchema"   	xmlns:gmd="http://www.isotc211.org/2005/gmd"  	xmlns:gts="http://www.isotc211.org/2005/gts"  	xmlns:gco="http://www.isotc211.org/2005/gco"  	xmlns:xlink="http://www.w3.org/1999/xlink"  	xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd">
+<gmd:MD_Metadata  	
+	xmlns:gml="http://www.opengis.net/gml"  	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 	
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"   	
+	xmlns:gmd="http://www.isotc211.org/2005/gmd"  	
+	xmlns:gts="http://www.isotc211.org/2005/gts"  	
+	xmlns:gco="http://www.isotc211.org/2005/gco"  	
+	xmlns:xlink="http://www.w3.org/1999/xlink"  	
+	xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20060504/gmx/gmx.xsd">
 	<gmd:fileIdentifier>
 		<gco:CharacterString>5a1adb58-0bbe-425d-b0fe-577a6c0a4228</gco:CharacterString>
 	</gmd:fileIdentifier>
 	<gmd:language>
-		<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="dut" codeSpace="dut">Nederlands</gmd:LanguageCode>
+		<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="dut">Nederlands</gmd:LanguageCode>
 	</gmd:language>
 	<gmd:characterSet>
-		<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="dut">utf8</gmd:MD_CharacterSetCode>
+		<!-- Eventueel weg laten, als het toch niet gevuld kan worden -->
+		<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
 	</gmd:characterSet>
-	<gmd:parentIdentifier>
-		<gco:CharacterString/>
-	</gmd:parentIdentifier>
 	<gmd:hierarchyLevel>
-		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="dut">dataset</gmd:MD_ScopeCode>
+		<!-- via editor -->
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 	</gmd:hierarchyLevel>
-	<gmd:hierarchyLevelName>
-		<gco:CharacterString/>
-	</gmd:hierarchyLevelName>
 	<gmd:contact>
 		<gmd:CI_ResponsibleParty>
 			<gmd:individualName>
 				<gco:CharacterString/>
 			</gmd:individualName>
 			<gmd:organisationName>
-				<gco:CharacterString>Rijkswaterstaat</gco:CharacterString>
+				<gmx:Anchor xlink:href="http://standaarden.overheid.nl/owms/terms/Rijkswaterstaat">Rijkswaterstaat</gmx:Anchor>
 			</gmd:organisationName>
 			<gmd:positionName>
 				<gco:CharacterString/>
@@ -73,29 +77,28 @@
 				</gmd:CI_Contact>
 			</gmd:contactInfo>
 			<gmd:role>
-				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" >verstrekker</gmd:CI_RoleCode>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" >Contactpunt</gmd:CI_RoleCode>
 			</gmd:role>
 		</gmd:CI_ResponsibleParty>
 	</gmd:contact>
+	<!-- Een eventueel tweede contact kan een afwijkende rol hebben, er dient minimaal 1 contact met rol pointOfContact te zijn -->
 	<gmd:dateStamp>
+		<!-- Vandaag -->
 		<gco:Date>2018-02-12</gco:Date>
 	</gmd:dateStamp>
 	<gmd:metadataStandardName>
 		<gco:CharacterString>ISO 19115</gco:CharacterString>
 	</gmd:metadataStandardName>
 	<gmd:metadataStandardVersion>
-		<gco:CharacterString>Nederlandse metadata profiel op ISO 19115 voor geografie 1.3</gco:CharacterString>
+		<gco:CharacterString>Nederlandse metadata profiel op ISO 19115 voor geografie 2.0</gco:CharacterString>
 	</gmd:metadataStandardVersion>
 	<gmd:referenceSystemInfo>
 		<gmd:MD_ReferenceSystem>
 			<gmd:referenceSystemIdentifier>
 				<gmd:RS_Identifier>
 					<gmd:code>
-						<gco:CharacterString>28992</gco:CharacterString>
+						<gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/28992">28992</gmx:Anchor>
 					</gmd:code>
-					<gmd:codeSpace>
-						<gco:CharacterString>EPSG</gco:CharacterString>
-					</gmd:codeSpace>
 				</gmd:RS_Identifier>
 			</gmd:referenceSystemIdentifier>
 		</gmd:MD_ReferenceSystem>
@@ -105,11 +108,8 @@
 			<gmd:referenceSystemIdentifier>
 				<gmd:RS_Identifier>
 					<gmd:code>
-						<gco:CharacterString>5709</gco:CharacterString>
+						<gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/5709">5709</gmx:Anchor>
 					</gmd:code>
-					<gmd:codeSpace>
-						<gco:CharacterString>EPSG</gco:CharacterString>
-					</gmd:codeSpace>
 				</gmd:RS_Identifier>
 			</gmd:referenceSystemIdentifier>
 		</gmd:MD_ReferenceSystem>
@@ -119,48 +119,53 @@
 			<gmd:citation>
 				<gmd:CI_Citation>
 					<gmd:title>
+						<!-- Via editor -->
 						<gco:CharacterString>Titel van de dataset ontbreekt</gco:CharacterString>
 					</gmd:title>
-					<gmd:alternateTitle>
-						<gco:CharacterString></gco:CharacterString>
-					</gmd:alternateTitle>
 					<gmd:date>
 						<gmd:CI_Date>
 							<gmd:date>
+								<!-- Via editor -->
 								<gco:Date>2003-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="dut">creatie</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creatie</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
 					<gmd:edition>
+						<!-- via editor -->
 						<gco:CharacterString></gco:CharacterString>
 					</gmd:edition>
 					<gmd:identifier>
 						<gmd:MD_Identifier>
 							<gmd:code>
-								<gco:CharacterString>881f217c-21ac-4aa8-9a2e-bce93330b383</gco:CharacterString>
+								<!-- URI van de datset-->
+								<gmx:Anchor xlink:href="http://data.rijkswaterstaat.nl/dataset/id/881f217c-21ac-4aa8-9a2e-bce93330b383">881f217c-21ac-4aa8-9a2e-bce93330b383</gmx:Anchor>
 							</gmd:code>
 						</gmd:MD_Identifier>
 					</gmd:identifier>
 					<gmd:series>
+						<!-- als dataset tot een serie behoort -->
 						<gmd:CI_Series>
 							<gmd:name>
-								<gco:CharacterString/>
+								<gmx:Anchor xlink:href=""></gmx:Anchor>
 							</gmd:name>
 						</gmd:CI_Series>
 					</gmd:series>
 				</gmd:CI_Citation>
 			</gmd:citation>
 			<gmd:abstract>
+				<!-- uit editor -->
 				<gco:CharacterString>Samenvatting van de dataset ontbreekt</gco:CharacterString>
 			</gmd:abstract>
 			<gmd:purpose>
+				<!-- uit editor -->
 				<gco:CharacterString>Doel van de dataset ontbreekt</gco:CharacterString>
 			</gmd:purpose>
 			<gmd:status>
-				<gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="dut">compleet</gmd:MD_ProgressCode>
+				<!-- Mogelijkheid bieden de status aan te passen -->
+				<gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">compleet</gmd:MD_ProgressCode>
 			</gmd:status>
 			<gmd:pointOfContact>
 				<gmd:CI_ResponsibleParty>
@@ -168,7 +173,7 @@
 						<gco:CharacterString/>
 					</gmd:individualName>
 					<gmd:organisationName>
-						<gco:CharacterString>Rijkswaterstaat</gco:CharacterString>
+						<gmx:Anchor xlink:href="http://standaarden.overheid.nl/owms/terms/Rijkswaterstaat">Rijkswaterstaat</gmx:Anchor>
 					</gmd:organisationName>
 					<gmd:positionName>
 						<gco:CharacterString/>
@@ -217,15 +222,18 @@
 						</gmd:CI_Contact>
 					</gmd:contactInfo>
 					<gmd:role>
-						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner" codeSpace="dut">Eigenaar</gmd:CI_RoleCode>
+						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">Contactpunt</gmd:CI_RoleCode>
 					</gmd:role>
 				</gmd:CI_ResponsibleParty>
 			</gmd:pointOfContact>
+			<!-- Een eventueel tweede contactpunt kan een afwijkende rol hebben, er dient minimaal 1 contactpunt met rol pointOfContact te zijn -->
 			<gmd:resourceMaintenance>
 				<gmd:MD_MaintenanceInformation>
 					<gmd:maintenanceAndUpdateFrequency>
-						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual" codeSpace="dut">continu</gmd:MD_MaintenanceFrequencyCode>
+						<!-- In interface aangeven hoe vaak resource bijgewerkt wordt -->
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual">continu</gmd:MD_MaintenanceFrequencyCode>
 					</gmd:maintenanceAndUpdateFrequency>
+					<!-- uit editor -->
 					<gmd:dateOfNextUpdate>
 						<gco:Date>9999-09-09</gco:Date>
 					</gmd:dateOfNextUpdate>
@@ -233,176 +241,74 @@
 			</gmd:resourceMaintenance>
 			<gmd:graphicOverview>
 				<gmd:MD_BrowseGraphic>
-					<gmd:fileName>
-						<gco:CharacterString/>
-					</gmd:fileName>
+				 <gmd:fileName>
+                  <gmx:Anchor xlink:href="http://services.rce.geovoorziening.nl/www/PreviewRijksmonumentenKlein200x150.png">
+                  	PreviewRijksmonumentenKlein200x150.png</gmx:Anchor>
+                 </gmd:fileName>
 				</gmd:MD_BrowseGraphic>
 			</gmd:graphicOverview>
 			<gmd:descriptiveKeywords>
 				<gmd:MD_Keywords>
 					<gmd:keyword>
 						<gco:CharacterString>Sleutelwoord</gco:CharacterString>
+						<!-- Indien beschikbaar, een verwijzing naar een URI
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/theme/ps">
+	            		Beschermde gebieden</gmx:Anchor>, dan wel gecombineerd met een thesaurus
+						 -->
 					</gmd:keyword>
 				</gmd:MD_Keywords>
 			</gmd:descriptiveKeywords>
-			<gmd:resourceSpecificUsage>
-				<gmd:MD_Usage>
-					<gmd:specificUsage>
-						<gco:CharacterString/>
-					</gmd:specificUsage>
-					<gmd:userContactInfo>
-						<gmd:CI_ResponsibleParty>
-							<gmd:individualName>
-								<gco:CharacterString/>
-							</gmd:individualName>
-							<gmd:organisationName>
-								<gco:CharacterString/>
-							</gmd:organisationName>
-							<gmd:positionName>
-								<gco:CharacterString/>
-							</gmd:positionName>
-							<gmd:contactInfo>
-								<gmd:CI_Contact>
-									<gmd:phone>
-										<gmd:CI_Telephone>
-											<gmd:voice>
-												<gco:CharacterString/>
-											</gmd:voice>
-											<gmd:facsimile>
-												<gco:CharacterString/>
-											</gmd:facsimile>
-										</gmd:CI_Telephone>
-									</gmd:phone>
-									<gmd:address>
-										<gmd:CI_Address>
-											<gmd:deliveryPoint>
-												<gco:CharacterString/>
-											</gmd:deliveryPoint>
-											<gmd:city>
-												<gco:CharacterString/>
-											</gmd:city>
-											<gmd:administrativeArea>
-												<gco:CharacterString/>
-											</gmd:administrativeArea>
-											<gmd:postalCode>
-												<gco:CharacterString/>
-											</gmd:postalCode>
-											<gmd:country>
-												<gco:CharacterString/>
-											</gmd:country>
-											<gmd:electronicMailAddress>
-												<gco:CharacterString/>
-											</gmd:electronicMailAddress>
-										</gmd:CI_Address>
-									</gmd:address>
-									<gmd:onlineResource>
-										<gmd:CI_OnlineResource>
-											<gmd:linkage>
-												<gmd:URL/>
-											</gmd:linkage>
-										</gmd:CI_OnlineResource>
-									</gmd:onlineResource>
-								</gmd:CI_Contact>
-							</gmd:contactInfo>
-							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="user" codeSpace="dut"/>
-							</gmd:role>
-						</gmd:CI_ResponsibleParty>
-					</gmd:userContactInfo>
-				</gmd:MD_Usage>
-			</gmd:resourceSpecificUsage>
 			<gmd:resourceConstraints>
 				<gmd:MD_Constraints>
 					<gmd:useLimitation>
+						<!-- keuze in editor -->
 						<gco:CharacterString>Geen gebruiksbeperkingen</gco:CharacterString>
 					</gmd:useLimitation>
 				</gmd:MD_Constraints>
 			</gmd:resourceConstraints>
 			<gmd:resourceConstraints>
+				<!-- keuze in editor -->
 				<gmd:MD_LegalConstraints>
 					<gmd:accessConstraints>
-						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="dut">Anders</gmd:MD_RestrictionCode>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">Anders</gmd:MD_RestrictionCode>
 					</gmd:accessConstraints>
-					<gmd:useConstraints>
-						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="dut">Anders</gmd:MD_RestrictionCode>
-					</gmd:useConstraints>
 					<gmd:otherConstraints>
-						<gco:CharacterString>Geen beperkingen</gco:CharacterString>
-					</gmd:otherConstraints>
-					<gmd:otherConstraints>
-						<gco:CharacterString>http://creativecommons.org/publicdomain/zero/1.0/deed.nl</gco:CharacterString>
+						<gmx:Anchor xlink:href="http://creativecommons.org/publicdomain/zero/1.0/deed.nl">
+					       Geen beperkingen
+					    </gmx:Anchor>	
 					</gmd:otherConstraints>
 				</gmd:MD_LegalConstraints>
 			</gmd:resourceConstraints>
-			<gmd:resourceConstraints>
-				<gmd:MD_SecurityConstraints>
-					<gmd:classification>
-						<gmd:MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" codeSpace="dut">vrij toegankelijk</gmd:MD_ClassificationCode>
-					</gmd:classification>
-					<gmd:userNote>
-						<gco:CharacterString/>
-					</gmd:userNote>
-					<gmd:classificationSystem>
-						<gco:CharacterString/>
-					</gmd:classificationSystem>
-					<gmd:handlingDescription>
-						<gco:CharacterString/>
-					</gmd:handlingDescription>
-				</gmd:MD_SecurityConstraints>
-			</gmd:resourceConstraints>
-			<gmd:aggregationInfo>
-				<gmd:MD_AggregateInformation>
-					<gmd:aggregateDataSetName>
-						<gmd:CI_Citation>
-							<gmd:title>
-								<gco:CharacterString/>
-							</gmd:title>
-							<gmd:date>
-								<gmd:CI_Date>
-									<gmd:date/>
-									<gmd:dateType/>
-								</gmd:CI_Date>
-							</gmd:date>
-						</gmd:CI_Citation>
-					</gmd:aggregateDataSetName>
-					<gmd:associationType>
-						<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference" codeSpace="dut"/>
-					</gmd:associationType>
-				</gmd:MD_AggregateInformation>
-			</gmd:aggregationInfo>
 			<gmd:spatialRepresentationType>
-				<gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" codeSpace="dut">grid</gmd:MD_SpatialRepresentationTypeCode>
+				<!-- grid/vector, keuze in editor -->
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
 			</gmd:spatialRepresentationType>
 			<gmd:spatialResolution>
 				<gmd:MD_Resolution>
 					<gmd:equivalentScale>
 						<gmd:MD_RepresentativeFraction>
+							<!-- schaal, keuze in editor -->
 							<gmd:denominator><gco:Integer>10000</gco:Integer></gmd:denominator>
 						</gmd:MD_RepresentativeFraction>
 					</gmd:equivalentScale>
 				</gmd:MD_Resolution>
 			</gmd:spatialResolution>
-			<gmd:spatialResolution>
-				<gmd:MD_Resolution>
-					<gmd:distance/>
-				</gmd:MD_Resolution>
-			</gmd:spatialResolution>
 			<gmd:language>
-				<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="dut" codeSpace="dut">Nederlands</gmd:LanguageCode>
+				<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="dut">Nederlands</gmd:LanguageCode>
 			</gmd:language>
 			<gmd:characterSet>
-				<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="dut">utf8</gmd:MD_CharacterSetCode>
+				<!-- optie om weg te laten, als waarde toch niet geselecteerd kan worden in editor -->
+				<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
 			</gmd:characterSet>
 			<gmd:topicCategory>
+				<!-- keuze in editor (dient engelse waarde te nemen) -->
 				<gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
 			</gmd:topicCategory>
 			<gmd:extent>
 				<gmd:EX_Extent>
-					<gmd:description>
-						<gco:CharacterString></gco:CharacterString>
-					</gmd:description>
 					<gmd:geographicElement>
 						<gmd:EX_GeographicBoundingBox>
+							<!-- bounds afleiden uit gekozen gebieds identifier -->
 							<gmd:westBoundLongitude>
 								<gco:Decimal>3.2</gco:Decimal>
 							</gmd:westBoundLongitude>
@@ -422,7 +328,10 @@
 							<gmd:geographicIdentifier>
 								<gmd:MD_Identifier>
 									<gmd:code>
-										<gco:CharacterString>Nederland</gco:CharacterString>
+										<!-- Keuze in editor -->
+										<gmx:Anchor xlink:href="http://standaarden.overheid.nl/owms/terms/Rotterdam">
+								          Rotterdam
+								      </gmx:Anchor>
 									</gmd:code>
 								</gmd:MD_Identifier>
 							</gmd:geographicIdentifier>
@@ -431,6 +340,7 @@
 					<gmd:temporalElement>
 						<gmd:EX_TemporalExtent>
 							<gmd:extent>
+								<!-- Keuze in editor -->
 								<gml:TimePeriod gml:id="temporal-extent-1">
 									<gml:begin>
 										<gml:TimeInstant gml:id="ti1">
@@ -446,124 +356,40 @@
 							</gmd:extent>
 						</gmd:EX_TemporalExtent>
 					</gmd:temporalElement>
-					<gmd:verticalElement>
-						<gmd:EX_VerticalExtent>
-							<gmd:minimumValue>
-								<gco:Real>0.0</gco:Real>
-							</gmd:minimumValue>
-							<gmd:maximumValue>
-								<gco:Real>0.0</gco:Real>
-							</gmd:maximumValue>
-							<gmd:verticalCRS/>
-						</gmd:EX_VerticalExtent>
-					</gmd:verticalElement>
 				</gmd:EX_Extent>
 			</gmd:extent>
 			<gmd:supplementalInformation>
-				<gco:CharacterString></gco:CharacterString>
+				<gmx:Anchor xlink:href="https://rws.nl/documenten/Meer-info.docx">
+		          Meer-info.docx
+		      	</gmx:Anchor>
 			</gmd:supplementalInformation>
 		</gmd:MD_DataIdentification>
 	</gmd:identificationInfo>
-	<gmd:contentInfo/>
 	<gmd:distributionInfo>
 		<gmd:MD_Distribution>
-			<gmd:distributionFormat>
-				<gmd:MD_Format>
-					<gmd:name>
-						<gco:CharacterString/>
-					</gmd:name>
-					<gmd:version>
-						<gco:CharacterString/>
-					</gmd:version>
-				</gmd:MD_Format>
-			</gmd:distributionFormat>
-			<gmd:distributor>
-				<gmd:MD_Distributor>
-					<gmd:distributorContact>
-						<gmd:CI_ResponsibleParty>
-							<gmd:individualName>
-								<gco:CharacterString/>
-							</gmd:individualName>
-							<gmd:organisationName>
-								<gco:CharacterString>Rijkswaterstaat</gco:CharacterString>
-							</gmd:organisationName>
-							<gmd:positionName>
-								<gco:CharacterString/>
-							</gmd:positionName>
-							<gmd:contactInfo>
-								<gmd:CI_Contact>
-									<gmd:phone>
-										<gmd:CI_Telephone>
-											<gmd:voice>
-												<gco:CharacterString>(088) 7973999</gco:CharacterString>
-											</gmd:voice>
-											<gmd:facsimile>
-												<gco:CharacterString/>
-											</gmd:facsimile>
-										</gmd:CI_Telephone>
-									</gmd:phone>
-									<gmd:address>
-										<gmd:CI_Address>
-											<gmd:deliveryPoint>
-												<gco:CharacterString/>
-											</gmd:deliveryPoint>
-											<gmd:city>
-												<gco:CharacterString/>
-											</gmd:city>
-											<gmd:administrativeArea>
-												<gco:CharacterString/>
-											</gmd:administrativeArea>
-											<gmd:postalCode>
-												<gco:CharacterString/>
-											</gmd:postalCode>
-											<gmd:country>
-												<gco:CharacterString>Nederland</gco:CharacterString>
-											</gmd:country>
-											<gmd:electronicMailAddress>
-												<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
-											</gmd:electronicMailAddress>
-										</gmd:CI_Address>
-									</gmd:address>
-									<gmd:onlineResource>
-										<gmd:CI_OnlineResource>
-											<gmd:linkage>
-												<gmd:URL>https://www.rijkswaterstaat.nl</gmd:URL>
-											</gmd:linkage>
-										</gmd:CI_OnlineResource>
-									</gmd:onlineResource>
-								</gmd:CI_Contact>
-							</gmd:contactInfo>
-							<gmd:role>
-								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="dut">Distributeur</gmd:CI_RoleCode>
-							</gmd:role>
-						</gmd:CI_ResponsibleParty>
-					</gmd:distributorContact>
-					<gmd:distributionOrderProcess>
-						<gmd:MD_StandardOrderProcess>
-							<gmd:fees>
-								<gco:CharacterString/>
-							</gmd:fees>
-							<gmd:orderingInstructions>
-								<gco:CharacterString/>
-							</gmd:orderingInstructions>
-							<gmd:turnaround>
-								<gco:CharacterString/>
-							</gmd:turnaround>
-						</gmd:MD_StandardOrderProcess>
-					</gmd:distributionOrderProcess>
-				</gmd:MD_Distributor>
-			</gmd:distributor>
-			<gmd:transferOptions>
-				<gmd:MD_DigitalTransferOptions>
-					<gmd:unitsOfDistribution/>
-					<gmd:transferSize/>
-					<gmd:offLine>
-						<gmd:MD_Medium>
-							<gmd:name/>
-						</gmd:MD_Medium>
-					</gmd:offLine>
-				</gmd:MD_DigitalTransferOptions>
-			</gmd:transferOptions>
+			<gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://services.rce.geovoorziening.nl/rce/wms?request=getcapabilities</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gmx:Anchor
+						  xlink:href="http://www.opengeospatial.org/standards/wms">
+						  OGC:WMS</gmx:Anchor>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>NationalListedMonuments</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+	                     <gmx:Anchor
+						  xlink:href="http://inspire.ec.europa.eu/metadata-codelist/
+						    OnLineDescriptionCode/accessPoint">
+						  accessPoint</gmx:Anchor>
+					</gmd:description>
+                  </gmd:CI_OnlineResource>
+              </gmd:onLine>
+           </gmd:MD_DigitalTransferOptions>
 		</gmd:MD_Distribution>
 	</gmd:distributionInfo>
 	<gmd:dataQualityInfo>
@@ -571,17 +397,18 @@
 			<gmd:scope>
 				<gmd:DQ_Scope>
 					<gmd:level>
-						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="dut">dataset</gmd:MD_ScopeCode>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 					</gmd:level>
 				</gmd:DQ_Scope>
 			</gmd:scope>
 			<gmd:report>
+				<!-- In gebruik indien een dataset onder inspire (of andere wetgeving) valt-->
 				<gmd:DQ_DomainConsistency>
 					<gmd:result>
 						<gmd:DQ_ConformanceResult>
 							<gmd:specification>
 								<gmd:CI_Citation>
-									<gmd:title></gmd:title>
+									<gmd:title><gmx:Anchor xlink:href=""></gmx:Anchor></gmd:title>
 									<gmd:alternateTitle></gmd:alternateTitle>
 									<gmd:date>
 										<gmd:CI_Date>
@@ -600,6 +427,7 @@
 			<gmd:report>
 				<gmd:DQ_CompletenessOmission>
 					<gmd:result>
+						<!-- Te overwegen valt om het resultaat als percentage op te nemen -->
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueUnit>
 								<gml:UnitDefinition gml:id="id-29">
@@ -618,6 +446,9 @@
 				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
+							<!-- geonovum geeft geen suggestie over de vulling van valueUnit, inspire gebruikt dit:
+							<gmd:valueUnit xlink:href="http://www.opengis.net/def/uom/OGC/1.0/metre"/>
+							-->
 							<gmd:valueUnit>
 								<gml:UnitDefinition gml:id="id-56">
 									<gml:description>m</gml:description>
@@ -634,77 +465,9 @@
 			<gmd:lineage>
 				<gmd:LI_Lineage>
 					<gmd:statement>
+						<!-- herkomst uit editor -->
 						<gco:CharacterString>Algemene beschrijving herkomst ontbreekt</gco:CharacterString>
 					</gmd:statement>
-					<gmd:processStep>
-						<gmd:LI_ProcessStep>
-							<gmd:description>
-								<gco:CharacterString>Processtap ontbreekt</gco:CharacterString>
-							</gmd:description>
-							<gmd:dateTime>
-								<gco:DateTime>2003-04-01T00:00:00</gco:DateTime>
-							</gmd:dateTime>
-							<gmd:processor>
-								<gmd:CI_ResponsibleParty>
-									<gmd:individualName>
-										<gco:CharacterString/>
-									</gmd:individualName>
-									<gmd:organisationName>
-										<gco:CharacterString>Rijkswaterstaat</gco:CharacterString>
-									</gmd:organisationName>
-									<gmd:positionName>
-										<gco:CharacterString/>
-									</gmd:positionName>
-									<gmd:contactInfo>
-										<gmd:CI_Contact>
-											<gmd:phone>
-												<gmd:CI_Telephone>
-													<gmd:voice>
-														<gco:CharacterString>(088) 7973999</gco:CharacterString>
-													</gmd:voice>
-													<gmd:facsimile>
-														<gco:CharacterString/>
-													</gmd:facsimile>
-												</gmd:CI_Telephone>
-											</gmd:phone>
-											<gmd:address>
-												<gmd:CI_Address>
-													<gmd:deliveryPoint>
-														<gco:CharacterString>Postbus 2232</gco:CharacterString>
-													</gmd:deliveryPoint>
-													<gmd:city>
-														<gco:CharacterString>Utrecht</gco:CharacterString>
-													</gmd:city>
-													<gmd:administrativeArea>
-														<gco:CharacterString>Utrecht</gco:CharacterString>
-													</gmd:administrativeArea>
-													<gmd:postalCode>
-														<gco:CharacterString>3500 GE</gco:CharacterString>
-													</gmd:postalCode>
-													<gmd:country>
-														<gco:CharacterString>Nederland</gco:CharacterString>
-													</gmd:country>
-													<gmd:electronicMailAddress>
-														<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
-													</gmd:electronicMailAddress>
-												</gmd:CI_Address>
-											</gmd:address>
-											<gmd:onlineResource>
-												<gmd:CI_OnlineResource>
-													<gmd:linkage>
-														<gmd:URL>https://www.rijkswaterstaat.nl</gmd:URL>
-													</gmd:linkage>
-												</gmd:CI_OnlineResource>
-											</gmd:onlineResource>
-										</gmd:CI_Contact>
-									</gmd:contactInfo>
-									<gmd:role>
-										<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="dut">Maker</gmd:CI_RoleCode>
-									</gmd:role>
-								</gmd:CI_ResponsibleParty>
-							</gmd:processor>
-						</gmd:LI_ProcessStep>
-					</gmd:processStep>
 				</gmd:LI_Lineage>
 			</gmd:lineage>
 		</gmd:DQ_DataQuality>
