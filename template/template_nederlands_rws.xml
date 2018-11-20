@@ -17,12 +17,20 @@
 	</gmd:language>
 	<gmd:characterSet>
 		<!-- Eventueel weg laten, als het toch niet gevuld kan worden -->
-		<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
 	</gmd:characterSet>
+	<gmd:parentIdentifier>
+		<!-- neem identifier over van parent element -->
+		<gco:CharacterString/>
+	</gmd:parentIdentifier>
 	<gmd:hierarchyLevel>
 		<!-- via editor -->
-		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+		<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<!-- als serie, selecteer waarde uit de moeder catalogus -->
+		<gco:CharacterString/>
+	</gmd:hierarchyLevelName>
 	<gmd:contact>
 		<gmd:CI_ResponsibleParty>
 			<gmd:individualName>
@@ -123,6 +131,10 @@
 						<!-- Via editor -->
 						<gco:CharacterString>Titel van de dataset ontbreekt</gco:CharacterString>
 					</gmd:title>
+					<gmd:alternateTitle>
+						<!-- alternatieve titel via editor -->
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:alternateTitle>
 					<gmd:date>
 						<gmd:CI_Date>
 							<gmd:date>
@@ -130,7 +142,7 @@
 								<gco:Date>2003-04-01</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
-								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creatie</gmd:CI_DateTypeCode>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creatie</gmd:CI_DateTypeCode>
 							</gmd:dateType>
 						</gmd:CI_Date>
 					</gmd:date>
@@ -166,7 +178,7 @@
 			</gmd:purpose>
 			<gmd:status>
 				<!-- Mogelijkheid bieden de status aan te passen -->
-				<gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">compleet</gmd:MD_ProgressCode>
+				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">compleet</gmd:MD_ProgressCode>
 			</gmd:status>
 			<gmd:pointOfContact>
 				<gmd:CI_ResponsibleParty>
@@ -271,7 +283,7 @@
 				<!-- keuze in editor -->
 				<gmd:MD_LegalConstraints>
 					<gmd:accessConstraints>
-						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">Anders</gmd:MD_RestrictionCode>
+						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">Anders</gmd:MD_RestrictionCode>
 					</gmd:accessConstraints>
 					<gmd:otherConstraints>
 						<gmx:Anchor xlink:href="http://creativecommons.org/publicdomain/zero/1.0/deed.nl">
@@ -280,18 +292,45 @@
 					</gmd:otherConstraints>
 				</gmd:MD_LegalConstraints>
 			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:classification>
+						<!-- te vullen vanuit editor (pull down http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode)-->
+						<gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" codeSpace="dut">vrij toegankelijk</gmd:MD_ClassificationCode>
+					</gmd:classification>
+					<!-- gebruiks opmerking vanuit editor? -->
+					<gmd:userNote>
+						<gco:CharacterString/>
+					</gmd:userNote>
+					<!-- vaste waarde? -->
+					<gmd:classificationSystem>
+						<gco:CharacterString/>
+					</gmd:classificationSystem>
+					<!-- beheerders opmerking vanuit editor? -->
+					<gmd:handlingDescription>
+						<gco:CharacterString/>
+					</gmd:handlingDescription>
+				</gmd:MD_SecurityConstraints>
+			</gmd:resourceConstraints>
 			<gmd:spatialRepresentationType>
 				<!-- grid/vector, keuze in editor -->
-				<gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
 			</gmd:spatialRepresentationType>
+			<!-- deze opnemen indien het bestand vector is -->
 			<gmd:spatialResolution>
 				<gmd:MD_Resolution>
 					<gmd:equivalentScale>
 						<gmd:MD_RepresentativeFraction>
-							<!-- schaal, keuze in editor -->
+							
 							<gmd:denominator><gco:Integer>10000</gco:Integer></gmd:denominator>
 						</gmd:MD_RepresentativeFraction>
 					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<!-- deze opnemen indien het bestand een grid is -->
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance/>
 				</gmd:MD_Resolution>
 			</gmd:spatialResolution>
 			<gmd:language>
@@ -357,6 +396,18 @@
 							</gmd:extent>
 						</gmd:EX_TemporalExtent>
 					</gmd:temporalElement>
+					<!-- Spreiding in hoogte afleiden uit bestand, anders nillreason="missing" opnemen -->
+					<gmd:verticalElement>
+						<gmd:EX_VerticalExtent>
+							<gmd:minimumValue>
+								<gco:Real gco:nilReason="missing"/>
+							</gmd:minimumValue>
+							<gmd:maximumValue>
+								<gco:Real gco:nilReason="missing"/>
+							</gmd:maximumValue>
+							<gmd:verticalCRS/>
+						</gmd:EX_VerticalExtent>
+					</gmd:verticalElement>
 				</gmd:EX_Extent>
 			</gmd:extent>
 			<gmd:supplementalInformation>
@@ -368,39 +419,104 @@
 	</gmd:identificationInfo>
 	<gmd:distributionInfo>
 		<gmd:MD_Distribution>
-			<gmd:MD_DigitalTransferOptions>
-               <gmd:onLine>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://services.rce.geovoorziening.nl/rce/wms?request=getcapabilities</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:protocol>
-                        <gmx:Anchor
-						  xlink:href="http://www.opengeospatial.org/standards/wms">
-						  OGC:WMS</gmx:Anchor>
-                     </gmd:protocol>
-                     <!-- laag uit de wms/wfs/wcs die de beschreven dataset ontsluit -->
-                     <gmd:name>
-                        <gco:CharacterString>NationalListedMonuments</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                     	 <!-- gebruik accessPoint voor WMS/WFS/WCS capabilities, endpoint voor direct download (file.gml, wfs?request=getfeature, etc) -->
-	                     <gmx:Anchor
-						  xlink:href="http://inspire.ec.europa.eu/metadata-codelist/
-						    OnLineDescriptionCode/accessPoint">
-						  accessPoint</gmx:Anchor>
-					</gmd:description>
-                  </gmd:CI_OnlineResource>
-              </gmd:onLine>
-           </gmd:MD_DigitalTransferOptions>
-		</gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString/>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gmx:Anchor xlink:href="http://standaarden.overheid.nl/owms/terms/Rijkswaterstaat">Rijkswaterstaat</gmx:Anchor>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString/>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>(088) 7973999</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString/>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString/>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString/>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString/>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString/>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Nederland</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>servicedesk-data@rws.nl</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>https://www.rijkswaterstaat.nl</gmd:URL>
+											</gmd:linkage>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="dut">Distributeur</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+	               <gmd:onLine>
+	                  <gmd:CI_OnlineResource>
+	                     <gmd:linkage>
+	                        <gmd:URL>https://geoservices.rijkswaterstaat.nl/apps/geoserver/kustlijnkaart/wms?service=WMS&amp;request=getcapabilities&amp;version=1.3.0</gmd:URL>
+	                     </gmd:linkage>
+	                     <gmd:protocol>
+	                        <gmx:Anchor
+							  xlink:href="http://www.opengeospatial.org/standards/wms">
+							  OGC:WMS</gmx:Anchor>
+	                     </gmd:protocol>
+	                     <!-- laag uit de wms/wfs/wcs die de beschreven dataset ontsluit -->
+	                     <gmd:name>
+	                        <gco:CharacterString>trend_2017_50</gco:CharacterString>
+	                     </gmd:name>
+	                     <gmd:description>
+	                     	 <!-- gebruik accessPoint voor WMS/WFS/WCS capabilities, endpoint voor direct download (file.gml, wfs?request=getfeature, etc) -->
+		                     <gmx:Anchor
+							  xlink:href="http://inspire.ec.europa.eu/metadata-codelist/
+							    OnLineDescriptionCode/accessPoint">
+							  accessPoint</gmx:Anchor>
+						</gmd:description>
+	                  </gmd:CI_OnlineResource>
+	              </gmd:onLine>
+	           </gmd:MD_DigitalTransferOptions>
+			</gmd:MD_Distribution>
+		</gmd:transferOptions>	
 	</gmd:distributionInfo>
 	<gmd:dataQualityInfo>
 		<gmd:DQ_DataQuality>
 			<gmd:scope>
 				<gmd:DQ_Scope>
 					<gmd:level>
-						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
 					</gmd:level>
 				</gmd:DQ_Scope>
 			</gmd:scope>
