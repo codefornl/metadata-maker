@@ -508,8 +508,8 @@
 	                  </gmd:CI_OnlineResource>
 	              </gmd:onLine>
 	           </gmd:MD_DigitalTransferOptions>
-			</gmd:MD_Distribution>
-		</gmd:transferOptions>	
+	       </gmd:transferOptions>
+	   </gmd:MD_Distribution>
 	</gmd:distributionInfo>
 	<gmd:dataQualityInfo>
 		<gmd:DQ_DataQuality>
