@@ -1,4 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+	ISO19139 Sjabloon voor Metadata-maker
+
+	Relevante codelijsten voor nederlands profiel elementen 
+	(bron http://geonovum.github.io/Metadata-ISO19115/):
+	
+	***** //gmd:protocol *****
+	# Access point #
+	http://www.opengeospatial.org/standards/cat	OGC:CSW
+	http://www.opengeospatial.org/standards/wms	OGC:WMS
+	http://www.opengeospatial.org/standards/wmts	OGC:WMTS
+	http://www.opengeospatial.org/standards/wfs	OGC:WFS
+	http://www.opengeospatial.org/standards/wcs	OGC:WCS
+	http://www.opengeospatial.org/standards/sos	OGC:SOS
+	-	INSPIRE Atom
+	-	OGC:WCTS
+	http://www.opengeospatial.org/standards/wps	OGC:WPS
+	-	OGC:WFS-G
+	http://www.opengeospatial.org/standards/sps	OGC:SPS
+	http://www.ogcnetwork.net/SAS	OGC:SAS
+	-	OGC:WNS
+	http://www.opengeospatial.org/standards/ols#ODS	OGC:ODS
+	http://www.opengeospatial.org/standards/ols#OGS	OGC:OGS
+	http://www.opengeospatial.org/standards/ols#OUS	OGC:OUS
+	http://www.opengeospatial.org/standards/ols#OPS	OGC:OPS
+	http://www.opengeospatial.org/standards/ols#ORS	OGC:ORS
+	http://www.opengeospatial.org/standards/sensorthings	OGC:SensorThings
+	https://www.w3.org/TR/rdf-sparql-query/	W3C:SPARQL
+	https://www.oasis-open.org/committees/odata	OASIS:OData
+	https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md	OAS
+	-	landingpage
+	-	application
+	-	dataset
+	-   UKST
+	# End point #
+	https://www.iana.org/assignments/media-types/application/gml+xml	gml
+	http://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml	kml
+	https://www.iana.org/assignments/media-types/application/geo+json	geojson
+	http://inspire.ec.europa.eu/media-types/application/x-sqlite3	gpkg
+	https://www.iana.org/assignments/media-types/application/json	json
+	https://www.iana.org/assignments/media-types/application/ld+json	jsonld
+	https://www.iana.org/assignments/media-types/application/rdf+xml	rdf-xml
+	https://www.iana.org/assignments/media-types/application/xml	xml
+	https://www.iana.org/assignments/media-types/application/zip	zip
+	https://www.iana.org/assignments/media-types/image/png	png
+	https://www.iana.org/assignments/media-types/image/gif	gif
+	https://www.iana.org/assignments/media-types/image/jp2	jp2
+	https://www.iana.org/assignments/media-types/image/tiff	tiff
+	https://www.iana.org/assignments/media-types/text/csv	csv
+	https://www.iana.org/assignments/media-types/application/vnd.mapbox-vector-tile	mapbox-vector-tile
+	
+	***** //gmd:MD_LegalConstraints[gmd:accessConstraints]/gmd:otherConstraints *****
+	http://creativecommons.org/publicdomain/mark/{v}/deed.nl		Geen beperkingen
+	http://creativecommons.org/publicdomain/zero/{v}/deed.nl		Geen beperkingen
+	http://creativecommons.org/licenses/by/{v}/deed.nl		Naamsvermelding verplicht, {organisatienaam}
+	http://creativecommons.org/licenses/by-sa/{v}/deed.nl		Gelijk Delen, Naamsvermelding verplicht, {organisatienaam}
+	http://creativecommons.org/licenses/by-nc/{v}/deed.nl		Niet Commercieel, Naamsvermelding verplicht, {organisatienaam}
+	http://creativecommons.org/licenses/by-nc-sa/{v}/deed.nl		Niet Commercieel, Gelijk Delen, Naamsvermelding verplicht, {organisatienaam}
+	http://creativecommons.org/licenses/by-nd/{v}/deed.nl		Geen Afgeleide Werken, Naamsvermelding verplicht, {organisatienaam}
+	http://creativecommons.org/licenses/by-nc-nd/{v}/deed.nl		Niet Commercieel, Geen Afgeleide Werken, Naamsvermelding verplicht, {organisatienaam}
+	-		Geo Gedeeld licentie
+	
+-->
 <gmd:MD_Metadata  	
 	xmlns:gml="http://www.opengis.net/gml"  	
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 	
@@ -286,6 +349,7 @@
 						<gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">Anders</gmd:MD_RestrictionCode>
 					</gmd:accessConstraints>
 					<gmd:otherConstraints>
+						<!-- voor mogelijke waarden, zie header -->
 						<gmx:Anchor xlink:href="http://creativecommons.org/publicdomain/zero/1.0/deed.nl">
 					       Geen beperkingen
 					    </gmx:Anchor>	
@@ -396,16 +460,15 @@
 							</gmd:extent>
 						</gmd:EX_TemporalExtent>
 					</gmd:temporalElement>
-					<!-- Spreiding in hoogte afleiden uit bestand, anders nillreason="missing" opnemen -->
+					<!-- Spreiding in hoogte afleiden uit bestand, anders element weg laten of nillreason="missing" opnemen -->
 					<gmd:verticalElement>
 						<gmd:EX_VerticalExtent>
-							<gmd:minimumValue>
-								<gco:Real gco:nilReason="missing"/>
-							</gmd:minimumValue>
-							<gmd:maximumValue>
-								<gco:Real gco:nilReason="missing"/>
-							</gmd:maximumValue>
-							<gmd:verticalCRS/>
+							<gmd:minimumValue gco:nilReason="missing"/>
+							<gmd:maximumValue gco:nilReason="missing"/>
+							<!-- dient ook ingevuld te worden -->
+							<gmd:verticalCRS>
+								<gmd:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::5709"/>
+							</gmd:verticalCRS>
 						</gmd:EX_VerticalExtent>
 					</gmd:verticalElement>
 				</gmd:EX_Extent>
@@ -490,6 +553,7 @@
 	                        <gmd:URL>https://geoservices.rijkswaterstaat.nl/apps/geoserver/kustlijnkaart/wms?service=WMS&amp;request=getcapabilities&amp;version=1.3.0</gmd:URL>
 	                     </gmd:linkage>
 	                     <gmd:protocol>
+	                     	<!-- keuze uit pick-list, zie header -->
 	                        <gmx:Anchor
 							  xlink:href="http://www.opengeospatial.org/standards/wms">
 							  OGC:WMS</gmx:Anchor>
@@ -499,7 +563,7 @@
 	                        <gco:CharacterString>trend_2017_50</gco:CharacterString>
 	                     </gmd:name>
 	                     <gmd:description>
-	                     	 <!-- gebruik accessPoint voor WMS/WFS/WCS capabilities, endpoint voor direct download (file.gml, wfs?request=getfeature, etc) -->
+	                     	 <!-- gebruik accessPoint voor WMS/WFS/WCS capabilities, endpoint voor direct download (file.gml, wfs?request=getfeature, etc), zie header -->
 		                     <gmx:Anchor
 							  xlink:href="http://inspire.ec.europa.eu/metadata-codelist/
 							    OnLineDescriptionCode/accessPoint">
