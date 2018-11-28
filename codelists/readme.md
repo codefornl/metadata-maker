@@ -1,6 +1,10 @@
-#Omzetten vanuit xml
+#codelijsten per organisatie
 
-De codelijsten zijn beschikbaar op https://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml
-Vertalingen zijn beschikbaar op https://github.com/geonetwork/core-geonetwork/blob/master/schemas/iso19139/src/main/plugin/iso19139/loc/dut/codelists.xml
+De codelijsten in deze repository zijn verzameld uit diverse bronnen. Codelijsten zijn geordend per standaard of beherende organisatie.
+
+[geonovum](geonovum)
+[iso19139](iso19139)
+[owms](owms)
+[inspire](inspire)
 
 
