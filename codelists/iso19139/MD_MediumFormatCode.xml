@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_MediumFormatCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode:cpio">
+<skos:prefLabel xml:lang="en">cpio</skos:prefLabel>
+<skos:scopeNote xml:lang="en">CoPy In / Out (UNIX file format and command)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">cpio</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">CoPy In / Out (UNIX file format and command)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode:tar">
+<skos:prefLabel xml:lang="en">tar</skos:prefLabel>
+<skos:scopeNote xml:lang="en">Tape ARchive</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">tar</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Tape ARchive</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode:highSierra">
+<skos:prefLabel xml:lang="en">highSierra</skos:prefLabel>
+<skos:scopeNote xml:lang="en">high sierra file system</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">highSierra</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">high sierra file system</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode:iso9660">
+<skos:prefLabel xml:lang="en">iso9660</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information processing volume and file structure of CD-ROM</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">iso9660</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information processing volume and file structure of CD-ROM</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode:iso9660RockRidge">
+<skos:prefLabel xml:lang="en">iso9660RockRidge</skos:prefLabel>
+<skos:scopeNote xml:lang="en">rock ridge interchange protocol (UNIX)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">iso9660RockRidge</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">rock ridge interchange protocol (UNIX)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode:iso9660AppleHFS">
+<skos:prefLabel xml:lang="en">iso9660AppleHFS</skos:prefLabel>
+<skos:scopeNote xml:lang="en">hierarchical file system (Macintosh)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">iso9660AppleHFS</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">hierarchical file system (Macintosh)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumFormatCode" />
+</skos:Concept>
+</rdf:RDF>

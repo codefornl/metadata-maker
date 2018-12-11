@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_SpatialRepresentationTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode:vector">
+<skos:prefLabel xml:lang="en">vector</skos:prefLabel>
+<skos:scopeNote xml:lang="en">vector data is used to represent geographic data</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">vector</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Vector data wordt gebruikt om geografische data te representeren.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode:grid">
+<skos:prefLabel xml:lang="en">grid</skos:prefLabel>
+<skos:scopeNote xml:lang="en">grid data is used to represent geographic data</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">grid</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Grid data wordt gebruikt om geografische data te representeren.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode:textTable">
+<skos:prefLabel xml:lang="en">textTable</skos:prefLabel>
+<skos:scopeNote xml:lang="en">textual or tabular data is used to represent geographic data</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">tekstTabel</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Tekstuele of tabel data wordt gebruikt om geografische data te representeren.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode:tin">
+<skos:prefLabel xml:lang="en">tin</skos:prefLabel>
+<skos:scopeNote xml:lang="en">triangulated irregular network</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">tin</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Triangulated irregular network.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode:stereoModel">
+<skos:prefLabel xml:lang="en">stereoModel</skos:prefLabel>
+<skos:scopeNote xml:lang="en">three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">stereoModel</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3D overzicht wordt gevormd door intersectie van twee kernstralen van twee overlappende beelden.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode:video">
+<skos:prefLabel xml:lang="en">video</skos:prefLabel>
+<skos:scopeNote xml:lang="en">scene from a video recording</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">video</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Scène uit een video opname.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+</skos:Concept>
+</rdf:RDF>

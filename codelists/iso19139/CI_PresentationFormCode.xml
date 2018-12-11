@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">CI_PresentationFormCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:documentDigital">
+<skos:prefLabel xml:lang="en">documentDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">digital representation of a primarily textual item (can contain illustrations also)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">documentDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">digital representation of a primarily textual item (can contain illustrations also)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:imageDigital">
+<skos:prefLabel xml:lang="en">imageDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">representation of a primarily textual item (can contain illustrations also) on paper, photograhic material, or other media</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">imageDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:documentHardcopy">
+<skos:prefLabel xml:lang="en">documentHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">documentHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">representation of a primarily textual item (can contain illustrations also) on paper, photograhic material, or other media</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:imageHardcopy">
+<skos:prefLabel xml:lang="en">imageHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">imageHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:mapDigital">
+<skos:prefLabel xml:lang="en">mapDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">map represented in raster or vector form</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">mapDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">map represented in raster or vector form</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:mapHardcopy">
+<skos:prefLabel xml:lang="en">mapHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">map printed on paper, photographic material, or other media for use directly by the human user</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">mapHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">map printed on paper, photographic material, or other media for use directly by the human user</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:modelDigital">
+<skos:prefLabel xml:lang="en">modelDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">multi-dimensional digital representation of a feature, process, etc.</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">modelDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">multi-dimensional digital representation of a feature, process, etc.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:modelHardcopy">
+<skos:prefLabel xml:lang="en">modelHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">3-dimensional, physical model</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">modelHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3-dimensional, physical model</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:profileDigital">
+<skos:prefLabel xml:lang="en">profileDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">vertical cross-section in digital form</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">profileDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">vertical cross-section in digital form</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:profileHardcopy">
+<skos:prefLabel xml:lang="en">profileHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">vertical cross-section printed on paper, etc.</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">profileHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">vertical cross-section printed on paper, etc.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:tableDigital">
+<skos:prefLabel xml:lang="en">tableDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">digital representation of facts or figures systematically displayed, especially in columns</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">tableDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">digital representation of facts or figures systematically displayed, especially in columns</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:tableHardcopy">
+<skos:prefLabel xml:lang="en">tableHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">representation of facts or figures systematically displayed, especially in columns, printed onpapers, photographic material, or other media</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">tableHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">representation of facts or figures systematically displayed, especially in columns, printed onpapers, photographic material, or other media</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:videoDigital">
+<skos:prefLabel xml:lang="en">videoDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="en">digital video recording</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">videoDigital</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">digital video recording</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode:videoHardcopy">
+<skos:prefLabel xml:lang="en">videoHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">video recording on film</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">videoHardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">video recording on film</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" />
+</skos:Concept>
+</rdf:RDF>

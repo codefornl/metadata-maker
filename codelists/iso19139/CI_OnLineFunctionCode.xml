@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">CI_OnLineFunctionCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode:download">
+<skos:prefLabel xml:lang="en">download</skos:prefLabel>
+<skos:scopeNote xml:lang="en">online instructions for transferring data from one storage device or system to another</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">downloaddownload</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">online instructions for transferring data from one storage device or system to anotherdownload</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode:information">
+<skos:prefLabel xml:lang="en">information</skos:prefLabel>
+<skos:scopeNote xml:lang="en">online information about the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">information</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">online information about the resource</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode:offlineAccess">
+<skos:prefLabel xml:lang="en">offlineAccess</skos:prefLabel>
+<skos:scopeNote xml:lang="en">online instructions for requesting the resource from the provider</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">offlineAccess</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">online instructions for requesting the resource from the provider</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode:order">
+<skos:prefLabel xml:lang="en">order</skos:prefLabel>
+<skos:scopeNote xml:lang="en">online order process for obtening the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">order</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">online order process for obtening the resource</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode:search">
+<skos:prefLabel xml:lang="en">search</skos:prefLabel>
+<skos:scopeNote xml:lang="en">online search interface for seeking out information about the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">search</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">online search interface for seeking out information about the resource</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" />
+</skos:Concept>
+</rdf:RDF>

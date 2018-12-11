@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CellGeometryCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_CellGeometryCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CellGeometryCode:point">
+<skos:prefLabel xml:lang="en">point</skos:prefLabel>
+<skos:scopeNote xml:lang="en">each cell represents a point</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">pointpoint</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">each cell represents a pointzero-dimensional geometric primitive, representing a position but not having an extent</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CellGeometryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CellGeometryCode:area">
+<skos:prefLabel xml:lang="en">area</skos:prefLabel>
+<skos:scopeNote xml:lang="en">each cell represents an area</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">area</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">each cell represents an area</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CellGeometryCode" />
+</skos:Concept>
+</rdf:RDF>

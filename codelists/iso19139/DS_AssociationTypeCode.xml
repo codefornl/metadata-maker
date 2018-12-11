@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">DS_AssociationTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode:crossReference">
+<skos:prefLabel xml:lang="en">crossReference</skos:prefLabel>
+<skos:scopeNote xml:lang="en">reference from one dataset to another</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">crossReference</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">reference from one dataset to another</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode:largerWorkCitation">
+<skos:prefLabel xml:lang="en">largerWorkCitation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">reference to a master dataset of which this one is a part</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">largerWorkCitation</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">reference to a master dataset of which this one is a part</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode:partOfSeamlessDatabase">
+<skos:prefLabel xml:lang="en">partOfSeamlessDatabase</skos:prefLabel>
+<skos:scopeNote xml:lang="en">part of the same structured set of data held in a computer</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">partOfSeamlessDatabase</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">part of the same structured set of data held in a computer</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode:source">
+<skos:prefLabel xml:lang="en">source</skos:prefLabel>
+<skos:scopeNote xml:lang="en">mapping and charting information from which the dataset content originates</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">source</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">mapping and charting information from which the dataset content originates</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode:stereoMate">
+<skos:prefLabel xml:lang="en">stereoMate</skos:prefLabel>
+<skos:scopeNote xml:lang="en">part of a set of imagery that when used together, provides three-dimensional images</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">stereoMate</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">part of a set of imagery that when used together, provides three-dimensional images</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" />
+</skos:Concept>
+</rdf:RDF>

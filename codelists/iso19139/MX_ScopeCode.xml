@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MX_ScopeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:attribute">
+<skos:prefLabel xml:lang="en">attribute</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to the attribute class</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">attributeattribute</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to the attribute classinformation applies to the attribute class</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:attributeType">
+<skos:prefLabel xml:lang="en">attributeType</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to the characteristic of a feature</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">attributeTypeattributeType</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to the characteristic of a featureinformation applies to the characteristic of a feature</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:collectionHardware">
+<skos:prefLabel xml:lang="en">collectionHardware</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to the collection hardware class</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">collectionHardwarecollectionHardware</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to the collection hardware classinformation applies to the collection hardware class</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:collectionSession">
+<skos:prefLabel xml:lang="en">collectionSession</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to the collection session</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">collectionSessioncollectionSession</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to the collection sessioninformation applies to the collection session</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:dataset">
+<skos:prefLabel xml:lang="en">dataset</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to the dataset</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">datasetdataset</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Informatie heeft betrekking op de dataset.information applies to the dataset</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:series">
+<skos:prefLabel xml:lang="en">series</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to the series</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">seriesseries</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Informatie heeft betrekking op de serie.information applies to the series</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:nonGeographicDataset">
+<skos:prefLabel xml:lang="en">nonGeographicDataset</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to non-geographic data</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">nonGeographicDatasetnonGeographicDataset</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to non-geographic datainformation applies to non-geographic data</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:dimensionGroup">
+<skos:prefLabel xml:lang="en">dimensionGroup</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a dimension group</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">dimensionGroupdimensionGroup</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a dimension groupinformation applies to a dimension group</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:feature">
+<skos:prefLabel xml:lang="en">feature</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a feature</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">featurefeature</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a featureinformation applies to a feature</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:featureType">
+<skos:prefLabel xml:lang="en">featureType</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a feature type</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">featureTypefeatureType</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a feature typeinformation applies to a feature type</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:propertyType">
+<skos:prefLabel xml:lang="en">propertyType</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a property type</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">propertyTypepropertyType</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a property typeinformation applies to a property type</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:fieldSession">
+<skos:prefLabel xml:lang="en">fieldSession</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a field session</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">fieldSessionfieldSession</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a field sessioninformation applies to a field session</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:software">
+<skos:prefLabel xml:lang="en">software</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a computer program or routine</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">softwaresoftware</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a computer program or routineinformation applies to a computer program or routine</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:service">
+<skos:prefLabel xml:lang="en">service</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">serviceservice</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use caseinformation applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:model">
+<skos:prefLabel xml:lang="en">model</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a copy or imitation of an existing or hypothetical object</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">modelmodel</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a copy or imitation of an existing or hypothetical objectinformation applies to a copy or imitation of an existing or hypothetical object</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:tile">
+<skos:prefLabel xml:lang="en">tile</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information applies to a tile, a spatial subset of geographic data</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">tiletile</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">information applies to a tile, a spatial subset of geographic datainformation applies to a tile, a spatial subset of geographic data</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:initiative">
+<skos:prefLabel xml:lang="en">initiative</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which was originally identified as an initiative (DS_Initiative)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">initiative</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which was originally identified as an initiative (DS_Initiative)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:stereomate">
+<skos:prefLabel xml:lang="en">stereomate</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which was originally identified as a stereo mate (DS_StereoMate)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">stereomate</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which was originally identified as a stereo mate (DS_StereoMate)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:sensor">
+<skos:prefLabel xml:lang="en">sensor</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which was originally identified as a sensor (DS_Sensor)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">sensorsensor</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">device or piece of equipment which detects or recordsThe referencing entity applies to a transfer aggregate which was originally identified as a sensor (DS_Sensor)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:platformSeries">
+<skos:prefLabel xml:lang="en">platformSeries</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which was originally identified as a platform series (DS_PlatformSeries)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">platformSeries</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which was originally identified as a platform series (DS_PlatformSeries)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:sensorSeries">
+<skos:prefLabel xml:lang="en">sensorSeries</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which was originally identified as a sensor series (DS_SensorSeries)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">sensorSeries</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which was originally identified as a sensor series (DS_SensorSeries)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:productionSeries">
+<skos:prefLabel xml:lang="en">productionSeries</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which was originally identified as a production series (DS_ProductionSeries)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">productionSeries</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which was originally identified as a production series (DS_ProductionSeries)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:transferAggregate">
+<skos:prefLabel xml:lang="en">transferAggregate</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which has no existence outside of the transfer context</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">transferAggregate</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which has no existence outside of the transfer context</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode:otherAggregate">
+<skos:prefLabel xml:lang="en">otherAggregate</skos:prefLabel>
+<skos:scopeNote xml:lang="en">The referencing entity applies to a transfer aggregate which has an existence outside of the transfer context, but which does not pertains to a specific aggregate type.</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">otherAggregate</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">The referencing entity applies to a transfer aggregate which has an existence outside of the transfer context, but which does not pertains to a specific aggregate type.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MX_ScopeCode" />
+</skos:Concept>
+</rdf:RDF>
+

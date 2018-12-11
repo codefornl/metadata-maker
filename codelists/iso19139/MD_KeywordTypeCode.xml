@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_KeywordTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode:discipline">
+<skos:prefLabel xml:lang="en">discipline</skos:prefLabel>
+<skos:scopeNote xml:lang="en">keyword identifies a branch of instruction or specialized learning</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">discipline</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">keyword identifies a branch of instruction or specialized learning</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode:place">
+<skos:prefLabel xml:lang="en">place</skos:prefLabel>
+<skos:scopeNote xml:lang="en">keyword identifies a location</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">place</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">keyword identifies a location</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode:stratum">
+<skos:prefLabel xml:lang="en">stratum</skos:prefLabel>
+<skos:scopeNote xml:lang="en">keyword identifies the layer(s) of any deposited substance</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">stratum</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">keyword identifies the layer(s) of any deposited substance</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode:temporal">
+<skos:prefLabel xml:lang="en">temporal</skos:prefLabel>
+<skos:scopeNote xml:lang="en">keyword identifies a time period related to the dataset</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">temporal</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">keyword identifies a time period related to the dataset</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode:theme">
+<skos:prefLabel xml:lang="en">theme</skos:prefLabel>
+<skos:scopeNote xml:lang="en">keyword identifies a particular subject or topic</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">theme</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">keyword identifies a particular subject or topic</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" />
+</skos:Concept>
+</rdf:RDF>

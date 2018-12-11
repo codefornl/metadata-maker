@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_RestrictionCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:copyright">
+<skos:prefLabel xml:lang="en">copyright</skos:prefLabel>
+<skos:scopeNote xml:lang="en">exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">copyright</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Exclusief recht voor publicatie, productie, of verkoop van rechten op een literair, theater, muzikaal of artistiek werk, of op het gebruik van een commerciéle druk of label, toegekend bij wet voor een specifieke periode of tijd aan een auteur, componist, artiest of distributeur.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:patent">
+<skos:prefLabel xml:lang="en">patent</skos:prefLabel>
+<skos:scopeNote xml:lang="en">government has granted exclusive right to make, sell, use or license an invention or discovery</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">patent</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Overheid heeft een exclusief recht toegekend om een uitvinding te maken, verkopen, gebruiken of in licentie uit te geven.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:patentPending">
+<skos:prefLabel xml:lang="en">patentPending</skos:prefLabel>
+<skos:scopeNote xml:lang="en">produced or sold information awaiting a patent</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">patent in wording</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Geproduceerde of verkochte informatie wachtend op een patent.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:trademark">
+<skos:prefLabel xml:lang="en">trademark</skos:prefLabel>
+<skos:scopeNote xml:lang="en">a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">merknaam</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Een naam, symbool of ander object om een product te identificeren, wat officieel geregistreerd is en gebruik wettelijk voorbehouden is aan de eigenaar of fabrikant.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:license">
+<skos:prefLabel xml:lang="en">license</skos:prefLabel>
+<skos:scopeNote xml:lang="en">formal permission to do something</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">licentie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Formele toestemming of iets te doen.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:intellectualPropertyRights">
+<skos:prefLabel xml:lang="en">intellectualPropertyRights</skos:prefLabel>
+<skos:scopeNote xml:lang="en">rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">intellectueel eigendom</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Recht op een financieel voordeel van en controle hebben op de distributie een niet tastbaar eigendom wat het resultaat is van creativiteit.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:restricted">
+<skos:prefLabel xml:lang="en">restricted</skos:prefLabel>
+<skos:scopeNote xml:lang="en">withheld from general circulation or disclosure</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">niet toegankelijkniet toegankelijk</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Niet geschikt voor algemene ontsluiting.Verbod op distributie en gebruik.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode:otherRestrictions">
+<skos:prefLabel xml:lang="en">otherRestrictions</skos:prefLabel>
+<skos:scopeNote xml:lang="en">limitation not listed</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">anders</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Restrictie niet opgenomen in lijst.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" />
+</skos:Concept>
+</rdf:RDF>

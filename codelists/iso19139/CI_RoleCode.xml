@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">CI_RoleCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:resourceProvider">
+<skos:prefLabel xml:lang="en">resourceProvider</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party that supplies the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">verstrekker</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Organisatie die de data verstrekt.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:custodian">
+<skos:prefLabel xml:lang="en">custodian</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party that accepts accountability and responsability for the data and ensures appropriate care and maintenance of the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">beheerder</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die verantwoordelijkheid heeft geaccepteerd en zorg draagt voor het beheer van de data.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:owner">
+<skos:prefLabel xml:lang="en">owner</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party that owns the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">eigenaar</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die eigenaar is van de data.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:user">
+<skos:prefLabel xml:lang="en">user</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party who uses the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">gebruiker</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die de data gebruikt.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:distributor">
+<skos:prefLabel xml:lang="en">distributor</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party who distributes the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">distributeur</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die de data verstrekt.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:originator">
+<skos:prefLabel xml:lang="en">originator</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party who created the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">maker</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die de data heeft gecreìerd</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:pointOfContact">
+<skos:prefLabel xml:lang="en">pointOfContact</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party who can be contacted for acquiring knowledge about or acquisition of the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">contactpunt</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij waarmee contact kan worden opgenomen voor het vergaren van kennis of verstrekking van de data.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:principalInvestigator">
+<skos:prefLabel xml:lang="en">principalInvestigator</skos:prefLabel>
+<skos:scopeNote xml:lang="en">key party responsible for gathering information and conducting research</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">inwinner</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Sleutelpartij verantwoordelijk voor verzamelen van data en de uitvoering van onderzoek.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:processor">
+<skos:prefLabel xml:lang="en">processor</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party wha has processed the data in a manner such that the resource has been modified</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">bewerker</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die de data heeft bewerkt, zodanig dat de data is gewijzigd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:publisher">
+<skos:prefLabel xml:lang="en">publisher</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party who published the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">uitgever</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die de data publiceert.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode:author">
+<skos:prefLabel xml:lang="en">author</skos:prefLabel>
+<skos:scopeNote xml:lang="en">party who authored the resource</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">auteur</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Partij die auteur is van de data.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_RoleCode" />
+</skos:Concept>
+</rdf:RDF>

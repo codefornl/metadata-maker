@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_ClassificationCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode:unclassified">
+<skos:prefLabel xml:lang="en">unclassified</skos:prefLabel>
+<skos:scopeNote xml:lang="en">available for general disclosure</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">vrij toegankelijk</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Beschikbaar voor algemene ontsluiting.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode:restricted">
+<skos:prefLabel xml:lang="en">restricted</skos:prefLabel>
+<skos:scopeNote xml:lang="en">not for general disclosure</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">niet toegankelijkniet toegankelijk</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Niet geschikt voor algemene ontsluiting.Verbod op distributie en gebruik.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode:confidential">
+<skos:prefLabel xml:lang="en">confidential</skos:prefLabel>
+<skos:scopeNote xml:lang="en">available for someone who can be entrusted with information</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">vertrouwelijk</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Beschikbaar voor personen die vertrouwd kan omgaan met de informatie.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode:secret">
+<skos:prefLabel xml:lang="en">secret</skos:prefLabel>
+<skos:scopeNote xml:lang="en">kept or meant to be kept private, unknown, or hidden from all but a select group of people</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">geheim</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Dient geheim en verborgen te worden gehouden voor iedereen behalve een geselecteerde groep personen.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode:topSecret">
+<skos:prefLabel xml:lang="en">topSecret</skos:prefLabel>
+<skos:scopeNote xml:lang="en">of the highest secrecy</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">zeer geheim</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Hoogste geheimhouding verplicht.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ClassificationCode" />
+</skos:Concept>
+</rdf:RDF>

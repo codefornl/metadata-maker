@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_ObligationCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode:mandatory">
+<skos:prefLabel xml:lang="en">mandatory</skos:prefLabel>
+<skos:scopeNote xml:lang="en">element is always required</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">mandatory</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">element is always required</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode:optional">
+<skos:prefLabel xml:lang="en">optional</skos:prefLabel>
+<skos:scopeNote xml:lang="en">element is not required</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">optional</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">element is not required</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode:conditional">
+<skos:prefLabel xml:lang="en">conditional</skos:prefLabel>
+<skos:scopeNote xml:lang="en">element is required when a specific condition is met</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">conditional</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">element is required when a specific condition is met</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ObligationCode" />
+</skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_ImagingConditionCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:blurredImage">
+<skos:prefLabel xml:lang="en">blurredImage</skos:prefLabel>
+<skos:scopeNote xml:lang="en">portion of the image is blurred</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">blurredImage</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">portion of the image is blurred</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:cloud">
+<skos:prefLabel xml:lang="en">cloud</skos:prefLabel>
+<skos:scopeNote xml:lang="en">portion of the image is partially obscured by cloud cover</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">cloud</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">portion of the image is partially obscured by cloud cover</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:degradingObliquity">
+<skos:prefLabel xml:lang="en">degradingObliquity</skos:prefLabel>
+<skos:scopeNote xml:lang="en">acute angle between the plane of the ecliptic (the plane of the Earth s orbit) and the plane of the celestial equator</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">degradingObliquity</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">acute angle between the plane of the ecliptic (the plane of the Earth s orbit) and the plane of the celestial equator</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:fog">
+<skos:prefLabel xml:lang="en">fog</skos:prefLabel>
+<skos:scopeNote xml:lang="en">portion of the image is partially obscured by fog</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">fog</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">portion of the image is partially obscured by fog</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:heavySmokeOrDust">
+<skos:prefLabel xml:lang="en">heavySmokeOrDust</skos:prefLabel>
+<skos:scopeNote xml:lang="en">portion of the image is partially obscured by heavy smoke or dust</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">heavySmokeOrDust</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">portion of the image is partially obscured by heavy smoke or dust</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:night">
+<skos:prefLabel xml:lang="en">night</skos:prefLabel>
+<skos:scopeNote xml:lang="en">image was taken at night</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">night</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">image was taken at night</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:rain">
+<skos:prefLabel xml:lang="en">rain</skos:prefLabel>
+<skos:scopeNote xml:lang="en">image was taken during rainfall</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">rain</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">image was taken during rainfall</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:semiDarkness">
+<skos:prefLabel xml:lang="en">semiDarkness</skos:prefLabel>
+<skos:scopeNote xml:lang="en">image was taken during semi-dark conditions -- twilight conditions</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">semiDarkness</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">image was taken during semi-dark conditions -- twilight conditions</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:shadow">
+<skos:prefLabel xml:lang="en">shadow</skos:prefLabel>
+<skos:scopeNote xml:lang="en">portion of the image is obscured by shadow</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">shadow</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">portion of the image is obscured by shadow</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:snow">
+<skos:prefLabel xml:lang="en">snow</skos:prefLabel>
+<skos:scopeNote xml:lang="en">portion of the image is obscured by snow</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">snow</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">portion of the image is obscured by snow</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode:terrainMasking">
+<skos:prefLabel xml:lang="en">terrainMasking</skos:prefLabel>
+<skos:scopeNote xml:lang="en">the absence of collection data of a given point or area caused by the relative location of topographic features which obstruct the collection path between the collector(s) and the subject(s) of interest</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">terrainMasking</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">the absence of collection data of a given point or area caused by the relative location of topographic features which obstruct the collection path between the collector(s) and the subject(s) of interest</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ImagingConditionCode" />
+</skos:Concept>
+</rdf:RDF>

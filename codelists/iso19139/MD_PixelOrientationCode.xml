@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_PixelOrientationCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode:center">
+<skos:prefLabel xml:lang="en">center</skos:prefLabel>
+<skos:scopeNote xml:lang="en">point halfway between the lower left and the upper right of the pixel</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">center</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">point halfway between the lower left and the upper right of the pixel</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode:lowerLeft">
+<skos:prefLabel xml:lang="en">lowerLeft</skos:prefLabel>
+<skos:scopeNote xml:lang="en">the corner in the pixel closest to the origin of the SRS; if two are at the same distance from the origin, the one with the smallest x-value</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">lowerLeft</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">the corner in the pixel closest to the origin of the SRS; if two are at the same distance from the origin, the one with the smallest x-value</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode:lowerRight">
+<skos:prefLabel xml:lang="en">lowerRight</skos:prefLabel>
+<skos:scopeNote xml:lang="en">next corner counterclockwise from the lower left</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">lowerRight</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">next corner counterclockwise from the lower left</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode:upperRight">
+<skos:prefLabel xml:lang="en">upperRight</skos:prefLabel>
+<skos:scopeNote xml:lang="en">next corner counterclockwise from the lower right</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">upperRight</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">next corner counterclockwise from the lower right</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode:upperLeft">
+<skos:prefLabel xml:lang="en">upperLeft</skos:prefLabel>
+<skos:scopeNote xml:lang="en">next corner counterclockwise from the upper right</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">upperLeft</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">next corner counterclockwise from the upper right</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_PixelOrientationCode" />
+</skos:Concept>
+</rdf:RDF>

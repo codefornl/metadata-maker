@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_CoverageContentTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode:image">
+<skos:prefLabel xml:lang="en">image</skos:prefLabel>
+<skos:scopeNote xml:lang="en">meaningful numerical representation of a physical parameter that is not the actual value of the physical parameter</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">image</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">meaningful numerical representation of a physical parameter that is not the actual value of the physical parameter</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode:thematicClassification">
+<skos:prefLabel xml:lang="en">thematicClassification</skos:prefLabel>
+<skos:scopeNote xml:lang="en">code value with no quantitative meaning, used to represent a physical quantity</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">thematicClassification</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">code value with no quantitative meaning, used to represent a physical quantity</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode:physicalMeasurement">
+<skos:prefLabel xml:lang="en">physicalMeasurement</skos:prefLabel>
+<skos:scopeNote xml:lang="en">value in physical units of the quantity being measured</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">physicalMeasurement</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">value in physical units of the quantity being measured</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" />
+</skos:Concept>
+</rdf:RDF>

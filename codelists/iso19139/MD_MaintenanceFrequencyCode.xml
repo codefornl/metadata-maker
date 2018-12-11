@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_MaintenanceFrequencyCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:continual">
+<skos:prefLabel xml:lang="en">continual</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is repeatedly and frequently updated</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">continu</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt herhaaldelijk en vaak geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:daily">
+<skos:prefLabel xml:lang="en">daily</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated each day</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">dagelijks</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt elke dag geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:weekly">
+<skos:prefLabel xml:lang="en">weekly</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated on a weekly basis</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">wekelijks</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt wekelijks geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:fortnightly">
+<skos:prefLabel xml:lang="en">fortnightly</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated every two weeks</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">2-wekelijks</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt 2-wekelijks geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:monthly">
+<skos:prefLabel xml:lang="en">monthly</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated each month</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">maandelijks</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt maandelijks geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:quarterly">
+<skos:prefLabel xml:lang="en">quarterly</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated every three months</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">1 x per kwartaal</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt elke kwartaal geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:biannually">
+<skos:prefLabel xml:lang="en">biannually</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated twice each year</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">1 x per half jaar</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt half jaarlijks geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:annually">
+<skos:prefLabel xml:lang="en">annually</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated every year</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">jaarlijks</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt jaarlijks geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:asNeeded">
+<skos:prefLabel xml:lang="en">asNeeded</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated as deemed necessary</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">indien nodig</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt geactualiseerd indien nodig.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:irregular">
+<skos:prefLabel xml:lang="en">irregular</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is updated in intervals that are uneven in duration</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">onregelmatig</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt geactualiseerd in intervallen die niet even lang duren.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:notPlanned">
+<skos:prefLabel xml:lang="en">notPlanned</skos:prefLabel>
+<skos:scopeNote xml:lang="en">there are no plans to update the data</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">niet gepland</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Er zijn geen plannen om de data te actualiseren.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode:unknown">
+<skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+<skos:scopeNote xml:lang="en">frequency of maintenance for the data is not known</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">onbekend</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Herzieningsfrequentie is niet bekend.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+</skos:Concept>
+</rdf:RDF>

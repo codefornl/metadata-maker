@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_MediumNameCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:cdRom">
+<skos:prefLabel xml:lang="en">cdRom</skos:prefLabel>
+<skos:scopeNote xml:lang="en">read-only optical disk</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">cdRom</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">read-only optical disk</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:dvd">
+<skos:prefLabel xml:lang="en">dvd</skos:prefLabel>
+<skos:scopeNote xml:lang="en">digital versatile disk</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">dvd</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">digital versatile disk</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:dvdRom">
+<skos:prefLabel xml:lang="en">dvdRom</skos:prefLabel>
+<skos:scopeNote xml:lang="en">digital versatile disk, read only</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">dvdRom</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">digital versatile disk, read only</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:3halfInchFloppy">
+<skos:prefLabel xml:lang="en">3halfInchFloppy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">3,5 inch magnetic disk</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">3halfInchFloppy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3,5 inch magnetic disk</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:5quarterInchFloppy">
+<skos:prefLabel xml:lang="en">5quarterInchFloppy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">5,25 inch magnetic disk</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">5quarterInchFloppy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">5,25 inch magnetic disk</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:7trackTape">
+<skos:prefLabel xml:lang="en">7trackTape</skos:prefLabel>
+<skos:scopeNote xml:lang="en">7 track magnetic tape</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">7trackTape</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">7 track magnetic tape</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:9trackType">
+<skos:prefLabel xml:lang="en">9trackType</skos:prefLabel>
+<skos:scopeNote xml:lang="en">9 track magnetic tape</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">9trackType</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">9 track magnetic tape</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:3480Cartridge">
+<skos:prefLabel xml:lang="en">3480Cartridge</skos:prefLabel>
+<skos:scopeNote xml:lang="en">3480 cartridge tape drive</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">3480Cartridge</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3480 cartridge tape drive</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:3490Cartridge">
+<skos:prefLabel xml:lang="en">3490Cartridge</skos:prefLabel>
+<skos:scopeNote xml:lang="en">3490 cartridge tape drive</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">3490Cartridge</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3490 cartridge tape drive</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:3580Cartridge">
+<skos:prefLabel xml:lang="en">3580Cartridge</skos:prefLabel>
+<skos:scopeNote xml:lang="en">3580 cartridge tape drive</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">3580Cartridge</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3580 cartridge tape drive</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:4mmCartridgeTape">
+<skos:prefLabel xml:lang="en">4mmCartridgeTape</skos:prefLabel>
+<skos:scopeNote xml:lang="en">4 millimetre magnetic tape</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">4mmCartridgeTape</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">4 millimetre magnetic tape</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:8mmCartridgeTape">
+<skos:prefLabel xml:lang="en">8mmCartridgeTape</skos:prefLabel>
+<skos:scopeNote xml:lang="en">8 millimetre magnetic tape</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">8mmCartridgeTape</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">8 millimetre magnetic tape</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:1quarterInchCartridgeTape">
+<skos:prefLabel xml:lang="en">1quarterInchCartridgeTape</skos:prefLabel>
+<skos:scopeNote xml:lang="en">0,25 inch magnetic tape</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">1quarterInchCartridgeTape</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">0,25 inch magnetic tape</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:digitalLinearTape">
+<skos:prefLabel xml:lang="en">digitalLinearTape</skos:prefLabel>
+<skos:scopeNote xml:lang="en">half inch cartridge streaming tape drive</skos:scopeNote>
+<skos:prefLabel xml:lang="nl"></skos:prefLabel>
+<skos:scopeNote xml:lang="nl"></skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:onLine">
+<skos:prefLabel xml:lang="en">onLine</skos:prefLabel>
+<skos:scopeNote xml:lang="en">direct computer linkage</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">onLine</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">direct computer linkage</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:satellite">
+<skos:prefLabel xml:lang="en">satellite</skos:prefLabel>
+<skos:scopeNote xml:lang="en">linkage through a satellite communication system</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">satellite</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">linkage through a satellite communication system</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:telephoneLink">
+<skos:prefLabel xml:lang="en">telephoneLink</skos:prefLabel>
+<skos:scopeNote xml:lang="en">communication through a telephone network</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">telephoneLink</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">communication through a telephone network</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode:hardcopy">
+<skos:prefLabel xml:lang="en">hardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">pamphlet or leaflet giving descriptive information</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">hardcopy</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">pamphlet or leaflet giving descriptive information</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_MediumNameCode" />
+</skos:Concept>
+</rdf:RDF>

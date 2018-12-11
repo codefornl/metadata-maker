@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_DatatypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:class">
+<skos:prefLabel xml:lang="en">class</skos:prefLabel>
+<skos:scopeNote xml:lang="en">descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">class</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:codelist">
+<skos:prefLabel xml:lang="en">codelist</skos:prefLabel>
+<skos:scopeNote xml:lang="en">flexible enumeration useful for expressing a long list of values, can be extended</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">codelist</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:enumeration">
+<skos:prefLabel xml:lang="en">enumeration</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data type whose instances form a list of named literal values, not extendable</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">enumeration</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">data type whose instances form a list of named literal values, not extendable</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:codelistElement">
+<skos:prefLabel xml:lang="en">codelistElement</skos:prefLabel>
+<skos:scopeNote xml:lang="en">permissible value for a codelist or enumeration</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">codelistElement</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">permissible value for a codelist or enumeration</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:abstractClass">
+<skos:prefLabel xml:lang="en">abstractClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">class that cannot be directly instantiated</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">abstractClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">class that cannot be directly instantiated</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:aggregateClass">
+<skos:prefLabel xml:lang="en">aggregateClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">class that is composed of classes it is connected to by an aggregate relationship</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">aggregateClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">class that is composed of classes it is connected to by an aggregate relationship</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:specifiedClass">
+<skos:prefLabel xml:lang="en">specifiedClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">subclass that may be substituted for its superclass</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">specifiedClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">subclass that may be substituted for its superclass</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:datatypeClass">
+<skos:prefLabel xml:lang="en">datatypeClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">datatypeClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:interfaceClass">
+<skos:prefLabel xml:lang="en">interfaceClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">named set of operations that characterize the behavior of an element</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">interfaceClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">named set of operations that characterize the behavior of an element</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:unionClass">
+<skos:prefLabel xml:lang="en">unionClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">class describing a selection of one of the specified types</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">unionClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">class describing a selection of one of the specified types</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:metaClass">
+<skos:prefLabel xml:lang="en">metaClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">class whose instances are classes</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">metaClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">class whose instances are classes</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:typeClass">
+<skos:prefLabel xml:lang="en">typeClass</skos:prefLabel>
+<skos:scopeNote xml:lang="en">class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">typeClass</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:characterString">
+<skos:prefLabel xml:lang="en">characterString</skos:prefLabel>
+<skos:scopeNote xml:lang="en">free text field</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">characterString</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">free text field</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:integer">
+<skos:prefLabel xml:lang="en">integer</skos:prefLabel>
+<skos:scopeNote xml:lang="en">numerical field</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">integer</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">numerical field</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode:association">
+<skos:prefLabel xml:lang="en">association</skos:prefLabel>
+<skos:scopeNote xml:lang="en">semantic relationship between two classes that involves connections among their instances</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">association</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">semantic relationship between two classes that involves connections among their instances</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DatatypeCode" />
+</skos:Concept>
+</rdf:RDF>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_DimensionNameTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:row">
+<skos:prefLabel xml:lang="en">row</skos:prefLabel>
+<skos:scopeNote xml:lang="en">ordinate (y) axis</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">row</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">ordinate (y) axis</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:column">
+<skos:prefLabel xml:lang="en">column</skos:prefLabel>
+<skos:scopeNote xml:lang="en">abscissa (x) axis</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">column</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">abscissa (x) axis</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:vertical">
+<skos:prefLabel xml:lang="en">vertical</skos:prefLabel>
+<skos:scopeNote xml:lang="en">vertical (z) axis</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">vertical</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">vertical (z) axis</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:track">
+<skos:prefLabel xml:lang="en">track</skos:prefLabel>
+<skos:scopeNote xml:lang="en">along the direction of motion of the scan point</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">track</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">along the direction of motion of the scan point</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:crossTrack">
+<skos:prefLabel xml:lang="en">crossTrack</skos:prefLabel>
+<skos:scopeNote xml:lang="en">perpendicular to the direction of motion of the scan point</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">crossTrack</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">perpendicular to the direction of motion of the scan point</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:line">
+<skos:prefLabel xml:lang="en">line</skos:prefLabel>
+<skos:scopeNote xml:lang="en">scan line of a sensor</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">line</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">scan line of a sensor</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:sample">
+<skos:prefLabel xml:lang="en">sample</skos:prefLabel>
+<skos:scopeNote xml:lang="en">element along a scan line</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">sample</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">element along a scan line</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode:time">
+<skos:prefLabel xml:lang="en">time</skos:prefLabel>
+<skos:scopeNote xml:lang="en">duration</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">time</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">duration</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" />
+</skos:Concept>
+</rdf:RDF>

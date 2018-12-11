@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_ProgressCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:completed">
+<skos:prefLabel xml:lang="en">completed</skos:prefLabel>
+<skos:scopeNote xml:lang="en">production of the data has been completed</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">compleet</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Productie van de data is compleet / afgerond.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:historicalArchive">
+<skos:prefLabel xml:lang="en">historicalArchive</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data has been stored in an offline storage facility</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">historisch archief</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">De data is opgeslagen in een offline opslagmedium.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:obsolete">
+<skos:prefLabel xml:lang="en">obsolete</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is no longer relevant</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">niet relevant</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data is niet langer relevant.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:onGoing">
+<skos:prefLabel xml:lang="en">onGoing</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is continually being updated</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">continu geactualiseerd</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt continu geactualiseerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:planned">
+<skos:prefLabel xml:lang="en">planned</skos:prefLabel>
+<skos:scopeNote xml:lang="en">fixed date has been established upon or by which the data will be created or updated</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">gepland</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Datum is al bekend wanneer de data gecreéerd of geactualiseerd moet zijn.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:required">
+<skos:prefLabel xml:lang="en">required</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data needs to be generated or updated</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">actualisatie vereist</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data moet nog gegenereerd of geactualiseerd worden.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode:underDevelopment">
+<skos:prefLabel xml:lang="en">underDevelopment</skos:prefLabel>
+<skos:scopeNote xml:lang="en">data is currently in the process of being created</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">in ontwikkeling</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data wordt momenteel gecreéerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_ProgressCode" />
+</skos:Concept>
+</rdf:RDF>

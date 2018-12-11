@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">CI_DateTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode:creation">
+<skos:prefLabel xml:lang="en">creation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">date identifies when the resource was brought into existence</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">creatie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Datum waarop de dataset of dataset serie is gecreìerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode:publication">
+<skos:prefLabel xml:lang="en">publication</skos:prefLabel>
+<skos:scopeNote xml:lang="en">date identifies when the resource was issued</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">publicatie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Publicatie datum waarop de dataset of dataset serie is gepubliceerd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode:revision">
+<skos:prefLabel xml:lang="en">revision</skos:prefLabel>
+<skos:scopeNote xml:lang="en">date identifies when the resource was examined or re-examined and imporved or amended</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">revisie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Datum waarop de dataset of dataset serie is gecontroleerd, verbeterd of gewijzigd.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" />
+</skos:Concept>
+</rdf:RDF>

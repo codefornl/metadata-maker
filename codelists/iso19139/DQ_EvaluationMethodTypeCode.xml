@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">DQ_EvaluationMethodTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode:directInternal">
+<skos:prefLabel xml:lang="en">directInternal</skos:prefLabel>
+<skos:scopeNote xml:lang="en">method of evaluating the quality of a dataset based on inspection of items within the dataset, where all data required is internal to the dataset being evaluated</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">directInternal</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">method of evaluating the quality of a dataset based on inspection of items within the dataset, where all data required is internal to the dataset being evaluated</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode:directExternal">
+<skos:prefLabel xml:lang="en">directExternal</skos:prefLabel>
+<skos:scopeNote xml:lang="en">method of evaluating the quality of a dataset based on inspection of items within the dataset, where reference data external to the dataset being evaluated is required</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">directExternal</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">method of evaluating the quality of a dataset based on inspection of items within the dataset, where reference data external to the dataset being evaluated is required</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode:indirect">
+<skos:prefLabel xml:lang="en">indirect</skos:prefLabel>
+<skos:scopeNote xml:lang="en">method of evaluating the quality of a dataset based on external knowledge</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">indirect</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">method of evaluating the quality of a dataset based on external knowledge</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode" />
+</skos:Concept>
+</rdf:RDF>

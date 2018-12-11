@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_TopicCategoryCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:farming">
+<skos:prefLabel xml:lang="en">farming</skos:prefLabel>
+<skos:scopeNote xml:lang="en">rearing of animals and/or cultivation of plants. Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">landbouw en veeteelt</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Houden van dieren en/of verbouwen van planten. Vb: landbouw, irrigatie, ziekten die gewassen aantasten.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:biota">
+<skos:prefLabel xml:lang="en">biota</skos:prefLabel>
+<skos:scopeNote xml:lang="en">flora and/or fauna in natural environment. Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">biota</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Flora en fauna in natuurlijke omgeving. Vb: habitats, ecologie.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:boundaries">
+<skos:prefLabel xml:lang="en">boundaries</skos:prefLabel>
+<skos:scopeNote xml:lang="en">legal land descriptions. Examples: political and administrative boundaries</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">grenzen</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Wettelijke gebiedsbeschrijvingen. Vb: politieke en administratieve grenzen.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:climatologyMeteorologyAtmosphere">
+<skos:prefLabel xml:lang="en">climatologyMeteorologyAtmosphere</skos:prefLabel>
+<skos:scopeNote xml:lang="en">processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">klimatologie, meteorologie atmosfeer</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Processen en fenomenen in de atmosfeer. Vb: wolkbedekking, weer, klimaat verandering.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:economy">
+<skos:prefLabel xml:lang="en">economy</skos:prefLabel>
+<skos:scopeNote xml:lang="en">economic activities, conditions and employment. Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">economie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Economische activiteiten, condities en werkgelegenheid. Vb: Werkgelegenheid, industrie, toerisme, olie- en gasvelden, bosbouw, visserij.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:elevation">
+<skos:prefLabel xml:lang="en">elevation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">height above or below sea level. Examples: altitude, bathymetry, digital elevation models, slope, derived products</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">hoogte</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Hoogte boven of onder zeeniveau. Vb: hoogtekaart, DEM, hellingen.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:environment">
+<skos:prefLabel xml:lang="en">environment</skos:prefLabel>
+<skos:scopeNote xml:lang="en">environmental resources, protection and conservation. Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">natuur en milieu</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Natuurlijke bronnen, bescherming en beheer. Vb: milieuverontreiniging, landschap, natuurlijke reserves, vuilopslag.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:geoscientificInformation">
+<skos:prefLabel xml:lang="en">geoscientificInformation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information pertaining to earth sciences. Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">geo wetenschappelijke data</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Data die behoort tot een aardwetenschap. Vb: geologie, mineralen, structuur van de aarde, zwaartekrachtskaart, grondstoffen, erosie.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:health">
+<skos:prefLabel xml:lang="en">health</skos:prefLabel>
+<skos:scopeNote xml:lang="en">health, health services, human ecology, and safety. Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">gezondheid</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Gezondheid(szorg), menselijke ecologie en veiligheid. Vb: ziekten, hygiéne, gezondheidszorg.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:imageryBaseMapsEarthCover">
+<skos:prefLabel xml:lang="en">imageryBaseMapsEarthCover</skos:prefLabel>
+<skos:scopeNote xml:lang="en">base maps. Examples: land cover, topographic maps, imagery, unclassified images, annotations</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">referentie materiaal aardbedekking</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Basiskaarten. Vb: landbedekking, topografische kaarten, foto's, ongeclassificeerde kaarten.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:intelligenceMilitary">
+<skos:prefLabel xml:lang="en">intelligenceMilitary</skos:prefLabel>
+<skos:scopeNote xml:lang="en">military bases, structures, activities. Examples: barracks, training grounds, military transportation, information collection</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">militair</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Militaire basissen, structuren en activiteiten. Vb: barakken, oefenterreinen, militaire transporten.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:inlandWaters">
+<skos:prefLabel xml:lang="en">inlandWaters</skos:prefLabel>
+<skos:scopeNote xml:lang="en">inland water features, drainage systems and their characteristics. Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">binnenwater</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Binnenwater, drainagesystemen en hun karakteristieken. Vb: Rivieren en gletsjers, dijken, stromen, waterzuiveringsinstallaties, overloopgebieden.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:location">
+<skos:prefLabel xml:lang="en">location</skos:prefLabel>
+<skos:scopeNote xml:lang="en">positional information and services. Examples: addresses, geodetic networks, control points, postal zones and services, place names</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">locatie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Positionele informatie en services. Vb: adressen, geodetisch netwerk, postcode gebieden, plaatsnamen, controlepunten.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:oceans">
+<skos:prefLabel xml:lang="en">oceans</skos:prefLabel>
+<skos:scopeNote xml:lang="en">features and characteristics of salt water bodies (excluding inland waters). Examples: tides, tidal waves, coastal information, reefs</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">oceanen</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Gebieden met zoutwaterlichamen (niet binnenlands). Vb: Getijden, tsunami's, kustinformatie, riffen.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:planningCadastre">
+<skos:prefLabel xml:lang="en">planningCadastre</skos:prefLabel>
+<skos:scopeNote xml:lang="en">information used for appropriate actions for future use of the land. Examples: land use maps, zoning maps, cadastral surveys, land ownership</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">planning kadaster</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Informatie die gebruikt wordt voor nodige planmatige activiteiten. Vb: Landgebruik, kadastrale informatie.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:society">
+<skos:prefLabel xml:lang="en">society</skos:prefLabel>
+<skos:scopeNote xml:lang="en">characteristics of society and cultures. Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">maatschappij</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Kenmerken van maatschappij en culturen. Vb: antropologie, archeologie, criminaliteit, gewoonten, nederzettingen, onderwijs.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:structure">
+<skos:prefLabel xml:lang="en">structure</skos:prefLabel>
+<skos:scopeNote xml:lang="en">man-made construction. Examples: buildings, museums, churches, factories, housing, monuments, shops, towers</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">(civiele) structuren</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Civiele werken (door mensen gemaakte structuren). Gebouwen, musea, kerken, winkels, torens.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:transportation">
+<skos:prefLabel xml:lang="en">transportation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">means and aids for conveying persons and/or goods. Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">transport</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Middelen voor vervoer van goederen en/of personen. Vb: Wegen, Vliegvelden, tunnels, spoorwegen.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode:utilitiesCommunication">
+<skos:prefLabel xml:lang="en">utilitiesCommunication</skos:prefLabel>
+<skos:scopeNote xml:lang="en">energy, water and waste systems and communications infrastructure and services. Examples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">nutsbedrijven communicatie</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">Energie, waterleidingen en riolering en communicatie infrastructuren en services. Vb: elektriciteit- en gasdistributie, waterzuivering en verstrekking, telecommunicatie, radio.</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopicCategoryCode" />
+</skos:Concept>
+</rdf:RDF>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_TopologyLevelCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:geometryOnly">
+<skos:prefLabel xml:lang="en">geometryOnly</skos:prefLabel>
+<skos:scopeNote xml:lang="en">geometry objects without any additional structure which describes topology</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">geometryOnly</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">geometry objects without any additional structure which describes topology</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:topology1D">
+<skos:prefLabel xml:lang="en">topology1D</skos:prefLabel>
+<skos:scopeNote xml:lang="en">1-dimensional topological complex -- commonly called chain-node topology</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">topology1D</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">1-dimensional topological complex -- commonly called chain-node topology</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:planarGraph">
+<skos:prefLabel xml:lang="en">planarGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="en">1-dimensional topological complex that is planar. (A planar graph is a graph that can be drawn in a plane in such a way that no two edges intersect except at a vertex.)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">planarGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">1-dimensional topological complex that is planar. (A planar graph is a graph that can be drawn in a plane in such a way that no two edges intersect except at a vertex.)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:fullPlanarGraph">
+<skos:prefLabel xml:lang="en">fullPlanarGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="en">2-dimensional topological complex that is planar. (A 2-dimensional topological complex is commonly called full topology in a cartographic 2D environment.)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">fullPlanarGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">2-dimensional topological complex that is planar. (A 2-dimensional topological complex is commonly called full topology in a cartographic 2D environment.)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:surfaceGraph">
+<skos:prefLabel xml:lang="en">surfaceGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="en">1-dimensional topological complex that is isomorphic to a subset of a surface. (A geometric complex is isomorphic to a topological complex if their elements are in a one-to-one, dimensional-and boundry-preserving correspondence to one another.)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">surfaceGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">1-dimensional topological complex that is isomorphic to a subset of a surface. (A geometric complex is isomorphic to a topological complex if their elements are in a one-to-one, dimensional-and boundry-preserving correspondence to one another.)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:fullSurfaceGraph">
+<skos:prefLabel xml:lang="en">fullSurfaceGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="en">2-dimensional topological complex that is isomorphic to a subset of a surface</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">fullSurfaceGraph</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">2-dimensional topological complex that is isomorphic to a subset of a surface</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:topology3D">
+<skos:prefLabel xml:lang="en">topology3D</skos:prefLabel>
+<skos:scopeNote xml:lang="en">3-dimensional topological complex. (A topological complex is a collection of topological primitives that are closed under the boundary operations.)</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">topology3D</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">3-dimensional topological complex. (A topological complex is a collection of topological primitives that are closed under the boundary operations.)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:fullTopology3D">
+<skos:prefLabel xml:lang="en">fullTopology3D</skos:prefLabel>
+<skos:scopeNote xml:lang="en">complete coverage of a 3D Euclidean coordinate space</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">fullTopology3D</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">complete coverage of a 3D Euclidean coordinate space</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode:abstract">
+<skos:prefLabel xml:lang="en">abstract</skos:prefLabel>
+<skos:scopeNote xml:lang="en">topological complex without any specified geometric realisation</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">abstract</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">topological complex without any specified geometric realisation</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_TopologyLevelCode" />
+</skos:Concept>
+</rdf:RDF>

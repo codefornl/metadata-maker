@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">DS_InitiativeTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:campaign">
+<skos:prefLabel xml:lang="en">campaign</skos:prefLabel>
+<skos:scopeNote xml:lang="en">series of organized planned actions</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">campaign</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">series of organized planned actions</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:collection">
+<skos:prefLabel xml:lang="en">collection</skos:prefLabel>
+<skos:scopeNote xml:lang="en">accumulation of datasets assembled for a specific purpose</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">collection</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">accumulation of datasets assembled for a specific purpose</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:exercise">
+<skos:prefLabel xml:lang="en">exercise</skos:prefLabel>
+<skos:scopeNote xml:lang="en">specific performance of a function or group of functions</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">exercise</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">specific performance of a function or group of functions</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:experiment">
+<skos:prefLabel xml:lang="en">experiment</skos:prefLabel>
+<skos:scopeNote xml:lang="en">process designed to find if something is effective or valid</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">experiment</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">process designed to find if something is effective or valid</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:investigation">
+<skos:prefLabel xml:lang="en">investigation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">search or systematic inquiry</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">investigation</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">search or systematic inquiry</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:mission">
+<skos:prefLabel xml:lang="en">mission</skos:prefLabel>
+<skos:scopeNote xml:lang="en">specific operation of a data collection system</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">mission</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">specific operation of a data collection system</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:sensor">
+<skos:prefLabel xml:lang="en">sensor</skos:prefLabel>
+<skos:scopeNote xml:lang="en">device or piece of equipment which detects or records</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">sensorsensor</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">device or piece of equipment which detects or recordsThe referencing entity applies to a transfer aggregate which was originally identified as a sensor (DS_Sensor)</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:operation">
+<skos:prefLabel xml:lang="en">operation</skos:prefLabel>
+<skos:scopeNote xml:lang="en">action that is part of a series of actions</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">operation</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">action that is part of a series of actions</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:platform">
+<skos:prefLabel xml:lang="en">platform</skos:prefLabel>
+<skos:scopeNote xml:lang="en">vehicle or other support base that holds a sensor</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">platform</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">vehicle or other support base that holds a sensor</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:process">
+<skos:prefLabel xml:lang="en">process</skos:prefLabel>
+<skos:scopeNote xml:lang="en">method of doing something involving a number of steps</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">process</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">method of doing something involving a number of steps</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:program">
+<skos:prefLabel xml:lang="en">program</skos:prefLabel>
+<skos:scopeNote xml:lang="en">specific planned activity</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">program</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">specific planned activity</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:project">
+<skos:prefLabel xml:lang="en">project</skos:prefLabel>
+<skos:scopeNote xml:lang="en">organized undertaking, research, or development</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">project</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">organized undertaking, research, or development</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:study">
+<skos:prefLabel xml:lang="en">study</skos:prefLabel>
+<skos:scopeNote xml:lang="en">examination or investigation</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">study</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">examination or investigation</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:task">
+<skos:prefLabel xml:lang="en">task</skos:prefLabel>
+<skos:scopeNote xml:lang="en">piece of work</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">task</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">piece of work</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode:trial">
+<skos:prefLabel xml:lang="en">trial</skos:prefLabel>
+<skos:scopeNote xml:lang="en">process of testing to discover or demonstrate something</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">trial</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">process of testing to discover or demonstrate something</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" />
+</skos:Concept>
+</rdf:RDF>

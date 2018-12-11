@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">MD_GeometricObjectTypeCode</dc:title>
+</skos:ConceptScheme>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode:complex">
+<skos:prefLabel xml:lang="en">complex</skos:prefLabel>
+<skos:scopeNote xml:lang="en">set of geometric primitives such that their boundaries can be represented as a union of other primitives</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">complex</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">set of geometric primitives such that their boundaries can be represented as a union of other primitives</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode:composite">
+<skos:prefLabel xml:lang="en">composite</skos:prefLabel>
+<skos:scopeNote xml:lang="en">connected set of curves, solids or surfaces</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">composite</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">connected set of curves, solids or surfaces</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode:curve">
+<skos:prefLabel xml:lang="en">curve</skos:prefLabel>
+<skos:scopeNote xml:lang="en">bounded, 1-dimensional geometric primitive, representing the continuous image of a line</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">curve</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">bounded, 1-dimensional geometric primitive, representing the continuous image of a line</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode:point">
+<skos:prefLabel xml:lang="en">point</skos:prefLabel>
+<skos:scopeNote xml:lang="en">zero-dimensional geometric primitive, representing a position but not having an extent</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">pointpoint</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">each cell represents a pointzero-dimensional geometric primitive, representing a position but not having an extent</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode:solid">
+<skos:prefLabel xml:lang="en">solid</skos:prefLabel>
+<skos:scopeNote xml:lang="en">bounded, connected 3-dimensional geometric primitive, representing the continuous image of a region of space</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">solid</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">bounded, connected 3-dimensional geometric primitive, representing the continuous image of a region of space</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+</skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode:surface">
+<skos:prefLabel xml:lang="en">surface</skos:prefLabel>
+<skos:scopeNote xml:lang="en">bounded, connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane</skos:scopeNote>
+<skos:prefLabel xml:lang="nl">surface</skos:prefLabel>
+<skos:scopeNote xml:lang="nl">bounded, connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane</skos:scopeNote>
+<skos:inScheme rdf:resource="http://schemas.opengis.net/iso/19139/20070417/resources/codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+</skos:Concept>
+</rdf:RDF>
