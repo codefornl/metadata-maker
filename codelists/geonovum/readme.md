@@ -1,5 +1,6 @@
-#Overnemen uit standaard document
+# Overnemen uit standaard document
 
-overnemen uit http://geonovum.github.io/Metadata-ISO19115
+Over genomen uit http://geonovum.github.io/Metadata-ISO19115
+Middels Excel (string concatenation) opgewerkt tot skos
 
 

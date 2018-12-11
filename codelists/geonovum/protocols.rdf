@@ -1,57 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:ns3="http://purl.org/dc/elements/1.1/"
-	xmlns:ns5="http://www.opengis.net/gml#"
-	xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-<rdf:Description rdf:about="http://geonetwork-opensource.org/protocols">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-	<ns3:title>protocols</ns3:title>
-</rdf:Description>
+<skos:ConceptScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://register.geostandaarden.nl/waardelijst/metadata/protocol">
+<dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Protocols in metadata</dc:title>
+</skos:ConceptScheme>
 
-<rdf:Description rdf:about="http://opengis.net/protocols/gml">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<ns2:prefLabel xml:lang="en">gml</ns2:prefLabel>
-	<ns2:scopeNote xml:lang="en">gml</ns2:scopeNote>
-	<ns5:BoundedBy rdf:nodeID="node1crq33ptix1"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1crq33ptix1">
-	<rdf:type rdf:resource="http://www.opengis.net/gml#Envelope"/>
-	<ns5:lowerCorner> </ns5:lowerCorner>
-	<ns5:upperCorner> </ns5:upperCorner>
-	<ns5:srsName rdf:resource="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://opengis.net/protocols/kml">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<ns2:prefLabel xml:lang="en">kml</ns2:prefLabel>
-	<ns2:scopeNote xml:lang="en">kml</ns2:scopeNote>
-	<ns5:BoundedBy rdf:nodeID="node1crq3487kx1"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1crq3487kx1">
-	<rdf:type rdf:resource="http://www.opengis.net/gml#Envelope"/>
-	<ns5:lowerCorner> </ns5:lowerCorner>
-	<ns5:upperCorner> </ns5:upperCorner>
-	<ns5:srsName rdf:resource="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://opengis.net/protocols/wms">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<ns2:prefLabel xml:lang="en">wms</ns2:prefLabel>
-	<ns2:prefLabel xml:lang="nl">wms</ns2:prefLabel>
-	<ns2:scopeNote xml:lang="en">wms</ns2:scopeNote>
-	<ns5:BoundedBy rdf:nodeID="node1crq34negx1"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1crq34negx1">
-	<rdf:type rdf:resource="http://www.opengis.net/gml#Envelope"/>
-	<ns5:lowerCorner> </ns5:lowerCorner>
-	<ns5:upperCorner> </ns5:upperCorner>
-	<ns5:srsName rdf:resource="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326"/>
-</rdf:Description>
-
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/cat"><skos:prefLabel xml:lang="nl">OGC:CSW</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Catalog service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/wms"><skos:prefLabel xml:lang="nl">OGC:WMS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Map service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/wmts"><skos:prefLabel xml:lang="nl">OGC:WMTS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Map Tile Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/wfs"><skos:prefLabel xml:lang="nl">OGC:WFS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Feature Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/wcs"><skos:prefLabel xml:lang="nl">OGC:WCS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Coverage Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/sos"><skos:prefLabel xml:lang="nl">OGC:SOS</skos:prefLabel><skos:scopeNote xml:lang="nl">Sensor Observation Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about=""><skos:prefLabel xml:lang="nl">INSPIRE Atom</skos:prefLabel><skos:scopeNote xml:lang="nl">Atom Service Feed</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/"><skos:prefLabel xml:lang="nl">OGC:WCTS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Coordinate Transformation Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/wps"><skos:prefLabel xml:lang="nl">OGC:WPS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Processing Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about=""><skos:prefLabel xml:lang="nl">OGC:WFS-G</skos:prefLabel><skos:scopeNote xml:lang="nl">Gazetteer service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/sps"><skos:prefLabel xml:lang="nl">OGC:SPS</skos:prefLabel><skos:scopeNote xml:lang="nl">Sensor Planning Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.ogcnetwork.net/SAS"><skos:prefLabel xml:lang="nl">OGC:SAS</skos:prefLabel><skos:scopeNote xml:lang="nl">Sensor Alert Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about=""><skos:prefLabel xml:lang="nl">OGC:WNS</skos:prefLabel><skos:scopeNote xml:lang="nl">Web Notification Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/ols#ODS"><skos:prefLabel xml:lang="nl">OGC:ODS</skos:prefLabel><skos:scopeNote xml:lang="nl">OpenLS Directory Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/ols#OGS"><skos:prefLabel xml:lang="nl">OGC:OGS</skos:prefLabel><skos:scopeNote xml:lang="nl">OpenLS Gateway Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/ols#OUS"><skos:prefLabel xml:lang="nl">OGC:OUS</skos:prefLabel><skos:scopeNote xml:lang="nl">OpenLS Utility Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/ols#OPS"><skos:prefLabel xml:lang="nl">OGC:OPS</skos:prefLabel><skos:scopeNote xml:lang="nl">OpenLS Presentation Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/ols#ORS"><skos:prefLabel xml:lang="nl">OGC:ORS</skos:prefLabel><skos:scopeNote xml:lang="nl">OpenLS Route Service</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.opengeospatial.org/standards/sensorthings"><skos:prefLabel xml:lang="nl">OGC:SensorThings</skos:prefLabel><skos:scopeNote xml:lang="nl">SensorThings API</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://www.w3.org/TR/rdf-sparql-query/"><skos:prefLabel xml:lang="nl">W3C:SPARQL</skos:prefLabel><skos:scopeNote xml:lang="nl">SPARQL Query Language for RDF</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://www.oasis-open.org/committees/odata"><skos:prefLabel xml:lang="nl">OASIS:OData</skos:prefLabel><skos:scopeNote xml:lang="nl">Open data protocol</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md"><skos:prefLabel xml:lang="nl">OAS</skos:prefLabel><skos:scopeNote xml:lang="nl">Open API Specification</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://register.geostandaarden.nl/waardelijst/metadata/protocol#landingpage"><skos:prefLabel xml:lang="nl">landingpage</skos:prefLabel><skos:scopeNote xml:lang="nl">Een webpagina die toegang geeft tot de dataset of overige informatie bevat</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://register.geostandaarden.nl/waardelijst/metadata/protocol#application"><skos:prefLabel xml:lang="nl">application</skos:prefLabel><skos:scopeNote xml:lang="nl">Een (web) applicatie die rechtstreeks toegang geeft tot de dataset</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://register.geostandaarden.nl/waardelijst/metadata/protocol#dataset"><skos:prefLabel xml:lang="nl">dataset</skos:prefLabel><skos:scopeNote xml:lang="nl">Referentie naar een locale dataset locatie</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="https://register.geostandaarden.nl/waardelijst/metadata/protocol#UKST"><skos:prefLabel xml:lang="nl">UKST</skos:prefLabel><skos:scopeNote xml:lang="nl">Unknown Service Type</skos:scopeNote><skos:inScheme rdf:resource="https://register.geostandaarden.nl/waardelijst/metadata/protocol" /></skos:Concept>
 </rdf:RDF>
